@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'founders_grotesk';
+    src: url('foundersgrotesk-bold-webfont.woff2') format('woff2'),
+         url('foundersgrotesk-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'founders_grotesk';
+    src: url('foundersgrotesk-light-webfont.woff2') format('woff2'),
+         url('foundersgrotesk-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'founders_grotesk';
+    src: url('foundersgrotesk-medium-webfont.woff2') format('woff2'),
+         url('foundersgrotesk-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'founders_grotesk';
+    src: url('foundersgrotesk-regular-webfont.woff2') format('woff2'),
+         url('foundersgrotesk-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'founders_grotesk';
+    src: url('foundersgrotesk-semibold-webfont.woff2') format('woff2'),
+         url('foundersgrotesk-semibold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'founders_grotesk_x-condensed';
+    src: url('foundersgroteskxcond-bold-webfont.woff2') format('woff2'),
+         url('foundersgroteskxcond-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'test_founders_grotesk';
+    src: url('testfoundersgrotesk-medium-webfont.woff2') format('woff2'),
+         url('testfoundersgrotesk-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'test_founders_grotesk';
+    src: url('testfoundersgrotesk-bold-webfont.woff2') format('woff2'),
+         url('testfoundersgrotesk-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'test_founders_grotesk';
+    src: url('testfoundersgrotesk-semibold-webfont.woff2') format('woff2'),
+         url('testfoundersgrotesk-semibold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'test_founders_grotesk_text';
+    src: url('testfoundersgrotesktext-medium-webfont.woff2') format('woff2'),
+         url('testfoundersgrotesktext-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
