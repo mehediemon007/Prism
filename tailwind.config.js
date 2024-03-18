@@ -25,6 +25,7 @@ module.exports = {
         padding: "1rem"
       },
       backgroundImage: {
+        "gradient": "linear-gradient(180deg, #1F1F1F 0%, rgba(31, 31, 31, 0) 100%)",
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
