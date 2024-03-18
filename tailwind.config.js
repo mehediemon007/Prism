@@ -16,7 +16,7 @@ module.exports = {
         sans: ['DM Sans', ...defaultTheme.fontFamily.serif]
       },
       colors: {
-        primary: "#34DAE8",
+        primary: "#36B7FF",
         secondary: "#CBD5E0",
         slate: "#9AA19E"
       },
@@ -26,6 +26,7 @@ module.exports = {
       },
       backgroundImage: {
         "gradient": "linear-gradient(180deg, #1F1F1F 0%, rgba(31, 31, 31, 0) 100%)",
+        "btn-bg": "linear-gradient(180deg, #1F1F1F 0%, #4E575F 40.87%)",
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",

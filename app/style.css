@@ -11,6 +11,12 @@ body {
 }
 
 
+.banner-title,
+.sec-title {
+  @apply font-title text-[162px]/[144px] font-bold uppercase text-white text-center mb-36 mx-auto tracking-[-4px]
+}
+
+
 /* Footer */
 
 .footer-widget h5 {

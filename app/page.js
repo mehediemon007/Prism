@@ -16,7 +16,9 @@ export default function Home() {
             <Mentors/>
           </div>
         </section>
-        <Faq/>
+        <section id="fqa" className="py-40">
+          <Faq/>
+        </section>
       </main>
       <Footer/>
     </>
