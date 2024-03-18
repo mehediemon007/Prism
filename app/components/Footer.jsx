@@ -10,9 +10,9 @@ import { LiaAngleRightSolid } from "react-icons/lia";
 const Footer = () => {
     return (
         <>
-            <footer class="kt-footer footer-2">
+            <footer class="pri-footer bg-gradient">
             <div class="container">
-            <div class="footer-top">
+            <div class="footer-top py-16">
                 <div class="grid grid-cols-6">
                     <div class="col-span-2">
                         <div class="footer-content">
@@ -25,7 +25,7 @@ const Footer = () => {
                                     // style={{width:'38px', height: '28px'}}
                                 />
                             </Link>
-                            <p class="des wow fadeInUp">Mi auctor sagittis habitasse elit. In orci lorem sodales sem enim fusce.</p> 
+                            <p class="max-w-60 font-text text-xl/[32px] font-normal text-slate tracking-tighter mt-10">Mi auctor sagittis habitasse elit. In orci lorem sodales sem enim fusce.</p> 
                         </div>
                     </div>
                     <div class="col-span-4">
@@ -33,29 +33,29 @@ const Footer = () => {
                             <div class="footer-widget">
                                 <h5>Company</h5>
                                 <ul class="footer-menu">
-                                    <li><a href="#">About Us</a></li>
-                                    <li><a href="#">Our Teams</a></li>
-                                    <li><a href="#">Careers</a></li>
-                                    <li><a href="#">Blog</a></li>
+                                    <li><Link href="#">About Us</Link></li>
+                                    <li><Link href="#">Our Teams</Link></li>
+                                    <li><Link href="#">Careers</Link></li>
+                                    <li><Link href="#">Blog</Link></li>
                                 </ul>
                             </div>
                             <div class="footer-widget">
                                 <h5>Resources</h5>
                                 <ul class="footer-menu">
-                                    <li><a href="#">Knowlwdge Base</a></li>
-                                    <li><a href="#">FAQs</a></li>
-                                    <li><a href="#">Support Center</a></li>
-                                    <li><a href="#">Terms of Service</a></li>
-                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><Link href="#">Knowlwdge Base</Link></li>
+                                    <li><Link href="#">FAQs</Link></li>
+                                    <li><Link href="#">Support Center</Link></li>
+                                    <li><Link href="#">Terms of Service</Link></li>
+                                    <li><Link href="#">Privacy Policy</Link></li>
                                 </ul>
                             </div>
                             <div class="footer-widget">
                                 <h5>Get Started</h5>
                                 <ul class="footer-menu">
-                                    <li><a href="#">Get Started</a></li>
-                                    <li><a href="#">Sign Up</a></li>
-                                    <li><a href="#">Free Trail</a></li>
-                                    <li><a href="#">Request Demo</a></li>
+                                    <li><Link href="#">Get Started</Link></li>
+                                    <li><Link href="#">Sign Up</Link></li>
+                                    <li><Link href="#">Free Trail</Link></li>
+                                    <li><Link href="#">Request Demo</Link></li>
                                 </ul>
                             </div>
                             <div class="footer-widget">
@@ -71,8 +71,8 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div class="footer-bottom">
-                <p>Copywrite &copy;Prism 2024. All rights reserved.</p>
+            <div class="border-t border-[#a5a9b633] py-8">
+                <p className='font-poppins text-sm font-normal text-slate  text-center'>Copywrite &copy;Prism 2024. All rights reserved.</p>
             </div>
         </div>
         </footer>

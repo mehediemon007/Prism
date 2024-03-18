@@ -46,7 +46,6 @@ const Header = () => {
                             width={100}
                             height={25}
                         />
-                        <span className='text-lg sm:text-[22px] font-medium font-text text-white sm:text-black'>Premium academy</span>
                     </Link>
                     <div className="nav-menu hidden items-center gap-x-8 lg:flex">
                         <a href="/#services">Features</a>
