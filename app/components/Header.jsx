@@ -17,9 +17,9 @@ const Header = () => {
         const { scrollY } = window;
         
         if(scrollY > 80 ){
-            document.querySelector('.pre-header').classList.add('sticky')
+            document.querySelector('.pri-header').classList.add('sticky')
         }else {
-            document.querySelector('.pre-header').classList.remove('sticky')
+            document.querySelector('.pri-header').classList.remove('sticky')
         }
 
     }, []);
@@ -36,7 +36,7 @@ const Header = () => {
 
     return (
 
-        <header className='pre-header fixed w-full top-0 left-0 py-6 sm:relative sm:top-auto sm:left-auto transition-all duration-300 ease-in-out shadow-none'>
+        <header className='pri-header fixed w-full top-0 left-0 py-6 sm:relative sm:top-auto sm:left-auto transition-all duration-300 ease-in-out shadow-none'>
             <div className='container'>
                 <div className='header-wrap flex justify-between items-center relative'>
                     <Link href="/" className="logo w-max">

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@100..600&family=Space+Grotesk:wght@300..700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -30,4 +32,72 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+
+/* Footer */
+
+.footer-2{
+  padding-top: 140px;
+}
+
+.footer-2 .social-links{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+}
+
+.footer-2 .footer-content p{
+  max-width: 178px;
+  font: var(--font-weight-normal) 16px/26px var(--body-font);
+  color: rgba(255, 255, 255, 0.5);
+  margin: 12px 0;
+}
+
+.footer-2 .footer-widget h5{
+  font: var(--font-weight-bold) 14px/20px var(--body-font);
+  color: rgba(255, 255, 255, 0.7);
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  margin-bottom: 8px;
+}
+
+.footer-2 .footer-menu li a{
+  display: inline-block;
+  font: var(--font-weight-normal) 15px/24px var(--body-font);
+  color: #8B8B8D;
+  margin-bottom: 8px;
+}
+
+.footer-2 .footer-menu li:last-child a{
+  margin-bottom: 0;
+}
+
+.footer-2 .payments{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 24px;
+}
+
+.footer-2 .payments img{
+  width: 24px;
+}
+
+.footer-widget .shape{
+  position: relative;
+  top: -16px;
+  left: -50px;
+}
+
+.footer-bottom{
+  border-top: 1px solid #3F3F46;
+  padding: 28px 0;
+}
+
+.footer-bottom p{
+  font: var(--font-weight-normal) 16px/24px var(--body-font);
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
 }
