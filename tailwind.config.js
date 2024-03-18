@@ -7,6 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      container:{  
+        center: true,
+        padding: "1rem"
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
