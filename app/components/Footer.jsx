@@ -3,9 +3,6 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 
-// ** Import Icons
-import { PiYoutubeLogoLight, PiInstagramLogoThin, PiWhatsappLogoThin } from "react-icons/pi";
-import { LiaAngleRightSolid } from "react-icons/lia";
 
 const Footer = () => {
     return (

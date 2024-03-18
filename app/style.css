@@ -5,9 +5,21 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  -webkit-tap-highlight-color: transparent;
-  @apply box-border overflow-x-hidden bg-black
+@layer base {
+
+  body {
+    -webkit-tap-highlight-color: transparent;
+    @apply box-border overflow-x-hidden bg-black
+  }
+  
+  img {
+    @apply inline-block max-h-full
+  }
+  
+}
+
+.nav-menu a {
+  @apply text-base font-normal font-text text-white
 }
 
 
@@ -16,6 +28,27 @@ body {
   @apply font-title text-[162px]/[144px] font-bold uppercase text-white text-center mb-36 mx-auto tracking-[-4px]
 }
 
+/* Partners */
+
+.partner-content{
+  @apply relative flex gap-[64px] overflow-hidden border-y border-[#a5a9b633] py-12
+}
+
+.partners{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: none;
+  animation: marquree 20s linear infinite;
+}
+
+.partners .bnd {
+  @apply border-r border-[#A5A9B6] px-24
+}
+
+.partner-content img {
+  @apply w-full
+}
 
 /* Footer */
 
@@ -25,4 +58,13 @@ body {
 
 .footer-menu a{
   @apply inline-block font-text text-sm font-normal text-slate mt-4  text-center tracking-tight
+}
+
+@keyframes marquree{
+  0% {
+      transform: translate(0,0);
+  }
+  100% {
+      transform: translate(-100%, 0);
+  }
 }

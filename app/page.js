@@ -4,6 +4,7 @@ import Banner from "./components/Banner";
 import Footer from "./components/Footer";
 import Faq from "./components/Faq";
 import Mentors from "./components/Mentors";
+import Partners from "./components/Partners";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Header/>
       <main>
         <Banner/>
+        <Partners/>
         <section id='mentors' className='pre-mentors bg-slate-600'>
           <div className="container pr-0">
             <Mentors/>

@@ -28,7 +28,7 @@ export default function Faq() {
         </div>
         <div className="space-y-10">
             {
-            data.length && data.map(faq => <Accordion {...faq}/>)
+            data.length && data.map((faq, i) => <Accordion {...faq} key={i}/>)
             }
         </div>
     </div>
