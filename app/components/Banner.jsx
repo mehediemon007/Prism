@@ -9,7 +9,7 @@ const Banner = () => {
     return (
         <>
             <div className="pri-banner pt-20">
-                <div className="container space-y-8 xl:space-y-0">
+                <div className="container space-y-8 xl:space-y-2">
                     <div className="banner-content">
                         <h1 className='banner-title !mb-4 !xl:mb-8'>New Era of <span className='text-primary'>banking.</span></h1>
                         <Link href="/register" className='flex justify-center items-center w-44 xl:w-64 h-14 xl:h-20 rounded-[117px] font-text text-lg xl:text-2xl font-bold text-primary bg-btn-bg mx-auto group'>Get Started <HiOutlineArrowRight className='text-xl xl:text-4xl rotate-[-45deg] ms-2 xl:ms-4 transition-all duration-100 ease-linear group-hover:rotate-0'/></Link>
