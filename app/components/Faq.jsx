@@ -22,7 +22,7 @@ export default function Faq() {
     ]
 
   return (
-    <div className="container">
+    <>
         <div className="sec-heading">
             <h2 className='sec-title'>Frequently asked <span className='text-primary'>questions</span></h2>
         </div>
@@ -31,6 +31,6 @@ export default function Faq() {
             data.length && data.map((faq, i) => <Accordion {...faq} key={i}/>)
             }
         </div>
-    </div>
+    </>
   )
 }

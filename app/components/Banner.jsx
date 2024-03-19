@@ -12,7 +12,7 @@ const Banner = () => {
             <div className="pri-banner">
                 <div className="container">
                     <div className="banner-content">
-                        <h2 className='banner-title !mb-8'>New Era of <span className='text-primary'>banking.</span></h2>
+                        <h1 className='banner-title !mb-8'>New Era of <span className='text-primary'>banking.</span></h1>
                         <Link href="/register" className='flex justify-center items-center w-64 h-20 rounded-[117px] font-text text-2xl font-bold text-primary bg-btn-bg mx-auto group'>Get Started <HiOutlineArrowRight size={26} className='rotate-[-45deg] ms-4 transition-all duration-100 ease-linear group-hover:rotate-0'/></Link>
                     </div>
                     <div className="banner-info grid grid-cols-4 items-start gap-8">
