@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect } from "react";
+import { useForm } from 'react-hook-form';
 import Image from "next/image";
 import Link from "next/link";
 
@@ -14,7 +15,19 @@ import { PiLockKey } from "react-icons/pi";
 
 export default function Login() {
 
+    const { register, handleSubmit, reset, formState, formState: { errors, isSubmitSuccessful }} = useForm();
+
     const [showPass, setShowPass] = useState(false);
+
+    const onSubmit = (data) => {
+        console.log(data);
+    };
+
+    useEffect(() => {
+        if (formState.isSubmitSuccessful) {
+          reset();
+        }
+    }, [formState, isSubmitSuccessful, reset]);
 
     return(
         <>  
@@ -27,6 +40,7 @@ export default function Login() {
                                 alt="Prism"
                                 width={100}
                                 height={25}
+                                className="w-auto h-auto"
                             />
                         </Link>
                         <div className="space-x-4">
@@ -40,16 +54,16 @@ export default function Login() {
                             <h2 className="text-2xl font-title">Sign in to your account</h2>
                             <p className="text-base font-text">Enter your details to login.</p>
                         </div>
-                        <form action="#" className="flex flex-col space-y-5">
+                        <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col space-y-5">
                             <div className="input-grp relative">
-                                <div className="icon left-2"><HiOutlineEnvelope size={20}/></div>
+                                <div className="icon left-2 !right-auto"><HiOutlineEnvelope size={20}/></div>
                                 <label htmlFor="email">Email address</label>
-                                <input type="email" id="email" placeholder="hello@gmail.com" className="!ps-10"/>
+                                <input type="email" id="email" name="email" {...register("email")} placeholder="hello@gmail.com" className="!ps-10"/>
                             </div>
                             <div className="input-grp relative">
-                                <div className="icon left-2 right-0"><PiLockKey size={20}/></div>
+                                <div className="icon left-2 !right-auto"><PiLockKey size={20}/></div>
                                 <label htmlFor="password">Password</label>
-                                <input type={showPass ? 'text' : 'password'} id="password" placeholder={showPass ? 'Password' : '.........'} className="!ps-10"/>
+                                <input type={showPass ? 'text' : 'password'} id="password" name="password" {...register("password")} placeholder={showPass ? 'Password' : '.........'} className="!ps-10"/>
                                 <div className="icon" onClick={()=> setShowPass(!showPass)}>{showPass ? <BsEye size={20}/> : <BsEyeSlash size={20}/>}</div>
                             </div>
                             <button type="submit" className="bg-primary">Register</button>
