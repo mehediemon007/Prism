@@ -21,7 +21,7 @@ const Banner = () => {
                             <div className='relative flex flex-col items-start justify-center w-72 h-20 bg-[#1F1F1F] rounded-[80px] px-12 mt-8'>
                                 <p className='text-2xl font-medium font-text tracking-[-2px]'>How Prism works</p>
                                 <p className='text-[17px] font-normal font-text text-slate'>In 3 simple steps</p>
-                                <Image src="/assets/imgs/react-icon.png" alt='Icon' width={64} height={64} className='absolute right-[-24px] top-2'/>
+                                <Image src="/assets/imgs/react-icon.png" alt='Icon' width={64} height={64} className='absolute w-auto h-auto right-[-24px] top-2 animate-spin-slow'/>
                             </div>
                         </div>
                         <div className="col-span-2">

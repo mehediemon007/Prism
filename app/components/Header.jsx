@@ -45,6 +45,7 @@ const Header = () => {
                             alt="Prism"
                             width={100}
                             height={25}
+                            className='w-auto h-auto'
                         />
                     </Link>
                     <div className="nav-menu hidden items-center gap-x-16 lg:flex">

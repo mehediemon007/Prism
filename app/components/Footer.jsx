@@ -19,7 +19,7 @@ const Footer = () => {
                                     alt="Prism"
                                     width={100}
                                     height={25}
-                                    // style={{width:'38px', height: '28px'}}
+                                    style={{width:'auto', height: 'auto'}}
                                 />
                             </Link>
                             <p className="max-w-60 font-text text-xl/[32px] font-normal text-slate tracking-tighter mt-10">Mi auctor sagittis habitasse elit. In orci lorem sodales sem enim fusce.</p> 
