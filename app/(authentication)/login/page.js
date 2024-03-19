@@ -31,28 +31,27 @@ export default function Login() {
 
     return(
         <>  
-            <div className="auth-layout-wrapper grid grid-cols-2 min-h-screen">
+            <div className="auth-layout-wrapper grid grid-col-1 lg:grid-cols-2 min-h-screen">
                 <div className="pri-auth flex flex-col justify-between flex-1">
-                    <div className='flex justify-between items-center py-6'>
+                    <div className='sticky top-0 flex justify-between items-center py-4 lg:py-6 bg-black z-20'>
                         <Link href="/" className="logo space-x-3 text-center">
                             <Image
                                 src='/assets/imgs/logo.png'
                                 alt="Prism"
                                 width={100}
                                 height={25}
-                                className="w-auto h-auto"
                             />
                         </Link>
                         <div className="space-x-4">
-                            <span className='text-base font-normal font-text'>Not a member</span>
-                            <Link href="/register" className='text-base font-normal font-text text-black px-4 py-2 bg-white rounded-lg inline-flex justify-center items-center'>Register here</Link>
+                            <span className='text-xs md:text-sm lg:text-base font-normal font-text'>Not a member</span>
+                            <Link href="/register" className='text-xs md:text-sm lg:text-base font-normal font-text text-black px-4 py-2 bg-white rounded-lg inline-flex justify-center items-center'>Register here</Link>
                         </div>
                     </div>
                     <div className="w-full lg:w-[80%] mx-auto">
                         <div className="heading text-center mb-10 space-y-2">
                             <Image src="/assets/imgs/user.svg" alt="user" width={88} height={88} className="mb-2"/>
-                            <h2 className="text-2xl font-title">Sign in to your account</h2>
-                            <p className="text-base font-text">Enter your details to login.</p>
+                            <h2 className="text-xl lg:text-2xl font-title">Sign in to your account</h2>
+                            <p className="text-sm lg:text-base font-text">Enter your details to login.</p>
                         </div>
                         <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col space-y-5">
                             <div className="input-grp relative">
@@ -72,7 +71,7 @@ export default function Login() {
                     </div>
                     <AuthFooter/>
                 </div>
-                <div className="auth-banner flex flex-col justify-center items-center gap-8 p-8">
+                <div className="auth-banner hidden lg:flex  flex-col justify-center items-center gap-8 p-8">
                     <div className='relative'>
                         <Image src="/assets/imgs/check.svg" alt='Cards' priority={true} width={0} height={318} sizes="100vw" className="w-full absolute top-[50%] translate-y-[-50%] z-[-1]"/>
                         <Image src="/assets/imgs/cards2.png" alt='Cards' priority={true} width={652} height={480}/>

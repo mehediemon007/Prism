@@ -120,15 +120,15 @@
 /* Auth Form */
 
 .pri-auth label {
-  @apply text-base font-text font-medium
+  @apply text-sm lg:text-base font-text font-medium
 }
 
 .pri-auth input {
-  @apply h-auto p-2 ps-4 text-base font-text font-normal bg-[#1F1F1F]
+  @apply h-auto p-2 ps-4 text-sm lg:text-base font-text font-normal bg-[#1F1F1F]
 }
 
 .pri-auth input::placeholder {
-  @apply text-sm font-text font-normal text-white
+  @apply text-xs lg:text-sm font-text font-normal text-white
 }
 
 .pri-auth input[type="password"]::placeholder {
@@ -136,7 +136,7 @@
 }
 
 .pri-auth button {
-  @apply p-2 border border-primary rounded-[10px] mt-2
+  @apply p-1 lg:p-2 border border-primary rounded-[10px] mt-1 lg:mt-2
 }
 
 /* Footer */
