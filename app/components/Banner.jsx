@@ -28,7 +28,7 @@ const Banner = () => {
                                 <p className='font-text text-xl font-normal text-primary tracking-tighter'>Hidden Charges</p>
                             </div>
                         </div>
-                        <div className="mb-8 xl:mb-0">
+                        <div className="mb-8 xl:mb-0 xl:col-span-2">
                             <Image src="/assets/imgs/cards2.png" width={0} height={0} priority={true} sizes='100vw' className='w-full xl:hidden' alt="Prism Debit Card" />
                             <Image src="/assets/imgs/cards.png" width={0} height={0} priority={true} sizes='100vw' className='w-full hidden xl:block' alt="Prism Debit Card" />
                         </div>
