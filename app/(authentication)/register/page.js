@@ -8,6 +8,7 @@ import AuthFooter from '../../components/AuthFooter';
 // ** Import Icons
 import { BsEye, BsEyeSlash} from "react-icons/bs";
 import { IoMdAlert } from "react-icons/io";
+import Selector from "../../elements/Selector";
 
 export default function Register() {
 
@@ -16,7 +17,7 @@ export default function Register() {
     return(
         <>
             <div className="pri-auth">
-                <div className='flex justify-between items-center'>
+                <div className='flex justify-between items-center py-4'>
                     <Link href="/" className="logo space-x-3 text-center">
                         <Image
                             src='/assets/imgs/logo.png'
@@ -66,7 +67,7 @@ export default function Register() {
                         </div>
                         <div className="input-grp required relative col-span-1">
                             <label htmlFor="gender">Gender</label>
-                            <input type="email" id="email" placeholder="hello@alignui.com"/>
+                            <Selector/>
                         </div>
                     </div>
                     <p className="col-span-2 text-sm font-text text-primary flex items-center gap-2 my-4"><IoMdAlert/> Please use your real information as this will need to be confirmed.</p>
