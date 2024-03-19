@@ -49,7 +49,7 @@ const Features = () => {
                         <Image src="/assets/imgs/outflow.svg" priority={true} width={0} height={0} sizes='100vw' className='w-full'/>
                     </div>
                 </div>
-                <div className="card border border-border bg-gradient p-6">
+                <div className="card border border-border bg-gradient p-6 overflow-hidden">
                     <div className="max-w-[80%] rounded-[16px]">
                         <div className="client-info flex items-center gap-4 bg-[#2E2E2E] py-8 px-6 rounded-[16px]">
                             <Image src="/assets/imgs/jassica.png" alt='Jassica' priority={true} width={58} height={58}/>
@@ -60,9 +60,9 @@ const Features = () => {
                         </div>
                     </div>
                     <div className="calculaotr">
-                        <div className='flex justify-end items-center gap-2 mt-8'>
+                        <div className='flex justify-end items-center gap-2 mt-8 mr-[-24px]'>
                             <span className='inline-block px-1 py-0 rounded-sm bg-[#F9A80A] text-sm font-poppins font-semibold'>USD</span>
-                            <h2 className='w-[60%] text-6xl font-poppins font-normal border-b-2 border-border pb-2'><sup className='text-2xl top-[-32px]'>$</sup>560.00</h2>
+                            <h2 className='w-[45%] text-6xl font-poppins font-normal border-b-2 border-border pb-2'><sup className='text-2xl top-[-32px]'>$</sup>560.00</h2>
                         </div>
                         <div className='flex gap-3 items-center justify-end mt-6'>
                             <span className='text-2xl font-poppins font-normal text-[#D93C3C]'>+ Fee $100</span>
