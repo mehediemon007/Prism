@@ -27,7 +27,7 @@ export default function Home() {
           </div>
         </section>
         <section id='mentors' className="pt-12 md:pt-16 xl:pt-32">
-          <div className="container pr-0">
+          <div className="container lg:pr-0">
             <Mentors/>
           </div>
         </section>

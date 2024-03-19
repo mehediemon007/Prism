@@ -36,7 +36,7 @@ const Header = () => {
 
     return (
 
-        <header className='pri-header fixed w-full top-0 left-0 py-6 bg-black sm:relative sm:top-auto sm:left-auto transition-all duration-100 ease-in-out border-b border-transparent shadow-none'>
+        <header className='pri-header fixed w-full top-0 left-0 py-4 md:py-6 bg-black sm:relative sm:top-auto sm:left-auto transition-all duration-100 ease-in-out border-b border-transparent shadow-none'>
             <div className='container'>
                 <div className='header-wrap flex justify-between items-center relative'>
                     <Link href="/" className="logo w-max">
@@ -45,7 +45,6 @@ const Header = () => {
                             alt="Prism"
                             width={100}
                             height={25}
-                            className='w-auto h-auto'
                         />
                     </Link>
                     <div className="nav-menu hidden items-center gap-x-16 lg:flex">
