@@ -186,8 +186,8 @@ const MentorSlider = () => {
                 </SwiperSlide>
 
                 <div className='text-center space-x-4 mt-16'>
-                    <button className='swiper-button-prev w-[58px] h-[58px] inline-flex justify-center items-center border border-border rounded-full group transition-all duration-100 ease-linear hover:bg-white'><HiChevronLeft size={24} className='text-white group-hover:text-primary'/></button>
-                    <button className='swiper-button-prev w-[58px] h-[58px] inline-flex justify-center items-center border border-border rounded-full group transition-all duration-100 ease-linear hover:bg-white'><HiChevronRight size={24} className='text-white group-hover:text-primary'/></button>
+                    <button className='swiper-button-prev w-[58px] h-[58px] inline-flex justify-center items-center border border-border rounded-full group transition-all duration-100 ease-linear hover:bg-white' aria-label='swipernav'><HiChevronLeft size={24} className='text-white group-hover:text-primary'/></button>
+                    <button className='swiper-button-prev w-[58px] h-[58px] inline-flex justify-center items-center border border-border rounded-full group transition-all duration-100 ease-linear hover:bg-white' aria-label='swipernav'><HiChevronRight size={24} className='text-white group-hover:text-primary'/></button>
                 </div>
 
             </Swiper>}
