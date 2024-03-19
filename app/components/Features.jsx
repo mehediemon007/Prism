@@ -50,12 +50,12 @@ const Features = () => {
                     </div>
                 </div>
                 <div className="card border border-border bg-gradient p-6 overflow-hidden">
-                    <div className="max-w-[80%] rounded-[16px]">
-                        <div className="client-info flex items-center gap-4 bg-[#2E2E2E] py-8 px-6 rounded-[16px]">
+                    <div className="md:max-w-[80%] rounded-[16px]">
+                        <div className="client-info flex items-center gap-4 bg-[#2E2E2E] p-4 md:py-6 md:px-4 lg:py-8 lg:px-6 rounded-[16px]">
                             <Image src="/assets/imgs/jassica.png" alt='Jassica' priority={true} width={58} height={58}/>
                             <div className="details">
-                                <h3 className='text-[18px]/[32px] font-poppins font-semibold'>Sarah John</h3>
-                                <p className='text-base font-poppins font-normal text-slate m-0'>CEO of Own Multi Company</p>
+                                <h3 className='text-sm md:text-base lg:text-[18px]/[32px] font-poppins font-semibold'>Sarah John</h3>
+                                <p className='text-xs md:text-sm lg:text-base font-poppins font-normal text-slate m-0'>CEO of Own Multi Company</p>
                             </div>
                         </div>
                     </div>

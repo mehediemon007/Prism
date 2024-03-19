@@ -78,13 +78,13 @@
 
 .banner-title,
 .sec-title {
-  @apply font-title text-[44px]/[44px] md:text-[108px]/[104px] xl:text-[162px]/[144px] font-bold uppercase text-white text-center mb-32 mx-auto xl:tracking-[-4px]
+  @apply font-title text-[44px]/[44px] md:text-[108px]/[104px] xl:text-[162px]/[144px] font-bold uppercase text-white text-center mb-12 md:mb-16 xl:mb-32 mx-auto xl:tracking-[-4px]
 }
 
 /* Features */
 
 .features .card-content h2 {
-  @apply max-w-md text-[40px]/[50px] font-bold font-title text-white mt-4
+  @apply md:max-w-md text-xl md:text-[40px]/[50px] font-bold font-title text-white mt-4
 }
 
 .features .card-content p {
@@ -141,12 +141,12 @@
 
 /* Footer */
 
-.footer-widget h5 {
-  @apply font-poppins text-xl font-medium text-white tracking-tighter mb-3
+.footer-widget h2 {
+  @apply font-poppins text-base lg:text-xl font-medium text-white tracking-tighter mb-1 lg:mb-3
 }
 
 .footer-menu a{
-  @apply inline-block font-text text-sm font-normal text-slate mt-4  text-center tracking-tight hover:text-primary
+  @apply inline-block font-text text-sm font-normal text-slate mt-2 lg:mt-4  text-center tracking-tight hover:text-primary
 }
 
 .scroll-to-top {

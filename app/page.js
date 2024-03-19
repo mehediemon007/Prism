@@ -16,7 +16,7 @@ export default function Home() {
       <main>
         <Banner/>
         <Partners/>
-        <section id="about" className="pt-32">
+        <section id="about" className="pt-12 md:pt-16 xl:pt-32">
           <div className="container">
             <About/>
           </div>
@@ -26,12 +26,12 @@ export default function Home() {
             <Features/>
           </div>
         </section>
-        <section id='mentors' className="pt-32">
+        <section id='mentors' className="pt-12 md:pt-16 xl:pt-32">
           <div className="container pr-0">
             <Mentors/>
           </div>
         </section>
-        <section id="fqa" className="py-32">
+        <section id="fqa" className="py-12 md:py-16 xl:py-32">
           <div className="container">
             <Faq/>
           </div>

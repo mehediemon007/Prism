@@ -9,7 +9,7 @@ const Footer = () => {
         <>
             <footer className="pri-footer bg-gradient">
             <div className="container">
-            <div className="footer-top py-16">
+            <div className="footer-top py-12 lg:py-16">
                 <div className="grid grid-col-1 lg:grid-cols-6">
                     <div className="lg:col-span-2">
                         <div className="footer-content">
@@ -19,14 +19,14 @@ const Footer = () => {
                                     alt="Prism"
                                     width={100}
                                     height={25}
-                                    style={{width:'auto', height: 'auto'}}
+                                    style={{width:'100px', height: '25px'}}
                                 />
                             </Link>
-                            <p className="max-w-60 font-text text-xl/[32px] font-normal text-slate tracking-tighter mt-10">Mi auctor sagittis habitasse elit. In orci lorem sodales sem enim fusce.</p> 
+                            <p className="lg:max-w-60 font-text text-xl/[32px] font-normal text-slate tracking-tighter my-6 lg:mt-10 lg:mb-0">Mi auctor sagittis habitasse elit. In orci lorem sodales sem enim fusce.</p> 
                         </div>
                     </div>
                     <div className="lg:col-span-4">
-                        <div className="grid grid-cols-2 lg:flex lg:justify-between">
+                        <div className="grid grid-cols-2 gap-6 lg:gap-0 lg:flex lg:justify-between">
                             <div className="footer-widget">
                                 <h2>Company</h2>
                                 <ul className="footer-menu">
