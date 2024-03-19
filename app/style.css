@@ -28,6 +28,16 @@
   @apply font-title text-[162px]/[144px] font-bold uppercase text-white text-center mb-36 mx-auto tracking-[-4px]
 }
 
+/* Features */
+
+.features .card h3 {
+  @apply max-w-md text-[40px]/[50px] font-bold font-title text-white mt-4
+}
+
+.features .card p {
+  @apply text-[20px]/[30px] font-normal font-text text-slate pr-7 mt-6
+}
+
 /* Partners */
 
 .partner-content{
