@@ -3,7 +3,6 @@ import Link from "next/link";
 import Image from 'next/image';
 
 // ** Icons
-
 import { HiOutlineArrowRight } from "react-icons/hi";
 
 const Banner = () => {

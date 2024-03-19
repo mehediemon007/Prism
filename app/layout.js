@@ -1,4 +1,5 @@
 import 'swiper/css';
+import 'react-credit-cards-2/dist/es/styles-compiled.css';
 import "./style.css";
 
 

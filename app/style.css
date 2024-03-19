@@ -15,7 +15,24 @@
   img {
     @apply inline-block max-h-full
   }
+
+  input{
+    @apply w-full h-[72px] text-[21px] font-poppins font-normal border border-transparent rounded-[6px] px-6 focus:outline-0 focus:border-border bg-[#444444]
+  }
+
+  input::placeholder{
+    @apply text-[21px] font-poppins font-normal text-[#A0AEC0]
+  }
+
   
+}
+
+@layer components {
+
+  .input-grp label {
+    @apply relative inline-block text-[21px] font-semibold font-poppins mb-2
+  }
+
 }
 
 .nav-menu a {
@@ -82,3 +99,45 @@
       transform: translate(-100%, 0);
   }
 }
+
+/* Debit Cards Customize*/
+
+.rccs__card--unknown > div {
+  background: linear-gradient(25deg, #36B7FF, #36B7FF) !important;
+}
+
+.rccs {
+  @apply !w-full
+}
+
+/* Switch */
+
+.switch-checkbox {
+  @apply w-0 h-0 invisible
+}
+
+.switch-label {
+  @apply cursor-pointer w-[60px] h-[30px] bg-[#2737c9] rounded-[75px] relative
+}
+
+.switch-label .switch-button {
+  content: '';
+  position: absolute;
+  top: 3px;
+  left: 2px;
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  transition: 0.2s;
+  background: #fff;
+  box-shadow: 0 0 2px 0 rgba(10, 10, 10, 0.29);
+}
+
+.switch-checkbox:checked + .switch-label .switch-button {
+  left: calc(100% - 2px);
+  transform: translateX(-100%);
+}
+
+/* .switch-label:active .switch-button {
+  width: 60px;
+} */

@@ -6,6 +6,7 @@ import Faq from "./components/Faq";
 import Mentors from "./components/Mentors";
 import Partners from "./components/Partners";
 import Features from "./components/Features";
+import About from "./components/About";
 
 export default function Home() {
   return (
@@ -14,6 +15,11 @@ export default function Home() {
       <main>
         <Banner/>
         <Partners/>
+        <section>
+          <div className="container">
+            <About/>
+          </div>
+        </section>
         <section id="features">
           <div className="container">
             <Features/>
