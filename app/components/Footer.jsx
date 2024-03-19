@@ -28,7 +28,7 @@ const Footer = () => {
                     <div className="col-span-4">
                         <div className="flex justify-between">
                             <div className="footer-widget">
-                                <h5>Company</h5>
+                                <h2>Company</h2>
                                 <ul className="footer-menu">
                                     <li><Link href="#">About Us</Link></li>
                                     <li><Link href="#">Our Teams</Link></li>
@@ -37,7 +37,7 @@ const Footer = () => {
                                 </ul>
                             </div>
                             <div className="footer-widget">
-                                <h5>Resources</h5>
+                                <h2>Resources</h2>
                                 <ul className="footer-menu">
                                     <li><Link href="#">Knowlwdge Base</Link></li>
                                     <li><Link href="#">FAQs</Link></li>
@@ -47,7 +47,7 @@ const Footer = () => {
                                 </ul>
                             </div>
                             <div className="footer-widget">
-                                <h5>Get Started</h5>
+                                <h2>Get Started</h2>
                                 <ul className="footer-menu">
                                     <li><Link href="#">Get Started</Link></li>
                                     <li><Link href="#">Sign Up</Link></li>
@@ -56,7 +56,7 @@ const Footer = () => {
                                 </ul>
                             </div>
                             <div className="footer-widget">
-                                <h5 className="ps-sm-4">Connect</h5>
+                                <h2 className="ps-sm-4">Connect</h2>
                                 <ul className="footer-menu ps-sm-4">
                                     <li><a href="#">Facebook</a></li>
                                     <li><a href="#">Twitter</a></li>

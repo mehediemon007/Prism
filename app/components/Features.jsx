@@ -13,8 +13,8 @@ const Features = () => {
             <div className="features grid grid-cols-2 gap-6 mt-6">
                 <div className="card border border-border bg-gradient">
                     <div className="relative overflow-hidden pb-16">
-                        <Image src="/assets/imgs/help.svg" priority={true} width={0} height={0} sizes='100vw' className='w-[55%] m-6'/>
-                        <Image src="/assets/imgs/ques.svg" priority={true} width={0} height={0} sizes="100vw" className='w-[44%] absolute top-[120px] right-[-40px]'/>
+                        <Image src="/assets/imgs/help.svg" priority={true} width={0} height={0} sizes='100vw' className='w-[55%] m-6' alt='help'/>
+                        <Image src="/assets/imgs/ques.svg" priority={true} width={0} height={0} sizes="100vw" className='w-[44%] absolute top-[120px] right-[-40px]' alt='ques'/>
                     </div>
                     <div className="card-content p-6 pt-0">
                         <div className='flex justify-between items-center'>
@@ -33,8 +33,8 @@ const Features = () => {
                         <p>Our pricing policy is straightforward with one simple rate. We ensure transparency by eliminating hidden margins or unexpected fees in our pricing structure.</p>
                     </div>
                     <div className="gap-6 px-6">
-                        <Image src="/assets/imgs/wise.svg" priority={true} width={0} height={0} sizes='100vw' className='w-full rounded-lg'/>
-                        <Image src="/assets/imgs/map.svg" priority={true} width={0} height={0} sizes='100vw' className='w-full'/>
+                        <Image src="/assets/imgs/wise.svg" priority={true} width={0} height={0} sizes='100vw' className='w-full rounded-lg' alt='wise-payment'/>
+                        <Image src="/assets/imgs/map.svg" priority={true} width={0} height={0} sizes='100vw' className='w-full' alt='map'/>
                     </div>
                 </div>
                 <div className="card border border-border bg-gradient">
@@ -46,7 +46,7 @@ const Features = () => {
                         <p>Enjoy the freedom of no limits on how much you can top up your Prism Card or spend, giving you complete control over your finances without the worry of hitting any caps or restrictions.</p>
                     </div>
                     <div className="gap-6 px-6">
-                        <Image src="/assets/imgs/outflow.svg" priority={true} width={0} height={0} sizes='100vw' className='w-full'/>
+                        <Image src="/assets/imgs/outflow.svg" priority={true} width={0} height={0} sizes='100vw' className='w-full' alt='workflow'/>
                     </div>
                 </div>
                 <div className="card border border-border bg-gradient p-6 overflow-hidden">

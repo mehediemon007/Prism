@@ -28,7 +28,7 @@ const Banner = () => {
                             <img src="./assets/imgs/cards.png" alt="Prism Debit Card" />
                         </div>
                         <div className="callout border-[1.5px] border-primary rounded-[10px] p-8 mt-[50%]">
-                            <h3 className='text-5xl font-bold font-title text-primary'>NO!</h3>
+                            <h2 className='text-5xl font-bold font-title text-primary animate-bounce'>NO!</h2>
                             <p className='max-w-4 font-text text-4xl font-normal text-primary tracking-tighter'>Hidden Charges</p>
                         </div>
                     </div>
