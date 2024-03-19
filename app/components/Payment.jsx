@@ -37,7 +37,7 @@ const Payment = () => {
                 cvc={state.cvc}
                 name={state.name}
                 focused={state.focus}/>
-            <form className='space-y-2 xl:space-y-5 mt-4 xl:mt-8'>
+            <form className='space-y-3 xl:space-y-5 mt-4 xl:mt-8'>
                 <div className="input-grp relative">
                     <label htmlFor="card-number">Card Number</label>
                     <input id="card-number" placeholder='0192 - 1245 - 9129 - 4533'/>

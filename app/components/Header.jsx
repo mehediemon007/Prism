@@ -64,8 +64,8 @@ const Header = () => {
                                 <a href="/#services" onClick={()=> setOpen(!isOpen)}>FAQ</a>
                                 <a href="/#mentors" onClick={()=> setOpen(!isOpen)}>Support</a>
                             </div>
-                            <Link href="/login" onClick={()=> setOpen(!isOpen)} className='text-base font-normal font-text'>Log in</Link>
-                            <Link href="/register" onClick={()=> setOpen(!isOpen)} className='text-base font-normal font-text border border-[#a5a9b633] rounded-[28px] w-[192px] h-[50px] text-center leading-[50px]'>Register -<span className='text-xs text-slate'> It's free</span></Link>
+                            <Link href="/login" onClick={()=> setOpen(!isOpen)}>Log in</Link>
+                            <Link href="/register" onClick={()=> setOpen(!isOpen)} className='border border-[#a5a9b633] rounded-[28px] w-[192px] h-[50px] text-center !leading-[50px]'>Register -<span className='text-xs text-slate'> It's free</span></Link>
                         </div>
                     </div>
                 </div>

@@ -50,15 +50,15 @@
 }
 
 .nav-actions a {
-  @apply block text-base font-medium font-text text-['#1E2123'] transition-colors duration-200 ease-linear lg:inline-block hover:text-primary
+  @apply block text-base font-normal font-text text-['#1E2123'] transition-colors duration-200 ease-linear lg:inline-block hover:text-primary
 }
 
 .nav-actions {
-  @apply w-full lg:w-max absolute lg:relative top-[calc(100%+20px)] left-0 lg:top-0 lg:left-0 bg-[#1F1F1F] lg:bg-transparent p-4 lg:p-0 space-y-2 lg:space-y-0 transition-all duration-300 ease-in lg:transition-none
+  @apply w-full lg:w-max absolute lg:relative top-[calc(100%+10px)] left-0 lg:top-0 lg:left-0 bg-[#1F1F1F] lg:bg-transparent p-4 lg:p-0 space-y-2 lg:space-y-0 transition-all duration-300 ease-in lg:transition-none z-20
 }
 
-.pre-header.sticky .nav-actions{
-  @apply top-[calc(100%+10px)]
+.pri-header.sticky .nav-actions{
+  @apply top-[calc(100%+8px)]
 }
 
 .pre-header.sticky .nav-icon svg {
