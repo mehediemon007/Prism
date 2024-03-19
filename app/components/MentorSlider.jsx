@@ -10,7 +10,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // import "swiper/css/pagination";
 
 // ** Import Icons
-import { LiaAngleRightSolid } from "react-icons/lia";
+import { FaStar } from "react-icons/fa";
+import { HiChevronRight, HiChevronLeft } from "react-icons/hi2";
 
 const MentorSlider = () => {
 
@@ -42,7 +43,7 @@ const MentorSlider = () => {
                 modules={[Navigation, Autoplay]}
                 slidesPerView={2.5}
                 slidesPerGroupSkip={1}
-                spaceBetween={24}
+                spaceBetween={32}
                 loop={true}
                 grabCursor={true}
                 navigation={{
@@ -56,128 +57,138 @@ const MentorSlider = () => {
                 speed={2000}
                 breakpoints={{
                     // when window width is >= 1280
-                    1280: {
-                        slidesPerView: 3.30,
+                    1600: {
+                        slidesPerView: 3,
                     }
                 }}
                 className="mentors-slider mt-32"
             >
 
                 <SwiperSlide>
-                    <div className="mentor-card flex flex-col justify-between flex-1">
-                        <div className="card-content">
-                            <div className="image">
-                                <Image src="/assets/imgs/mentors/david.jpg" alt='david' priority={true} width={0} height={0} sizes='100vw' className='sm:rounded-3xl'/>
+                    <div className="review-card flex flex-col justify-between bg-gradient p-10 border border-border">
+                        <div className="rating flex justify-between items-center border-b-2 border-border pb-8">
+                            <div className='flex items-center gap-1 text-primary'>
+                                <FaStar/>
+                                <FaStar/>
+                                <FaStar/>
+                                <FaStar/>
+                                <FaStar/>
+                            </div>
+                            <img src='/assets/imgs/clutch.png' alt='clutch'/>
+                        </div>
+                        <p className='text-2xl/[40px] font-bold font-title text-white py-8'>Mi auctor sagittis habitasse elit. In orci lorem <b className='text-slate'>sodales sem enim</b> fusce. At sem amet lacus eu aliquet <b className='text-state'>venenatis</b> tell bibendum sapien.</p>
+                        <div className="client-info flex items-center gap-4">
+                            <div className="image w-14 h-14 border border-border rounded-full text-center leading-[56px]">
+                                <Image src="/assets/imgs/avater.png" alt='david' priority={true} width={36} height={36}/>
                             </div>
                             <div className="details px-4 sm:p-0">
-                                <h3 className='text-xl font-text font-bold text-white my-4'>David Guerrero</h3>
-                                <p className='text-base sm:text-lg font-text font-normal text-slate-400 tracking-tighter mb-5 sm:mb-4 lg:pe-6'>Professional trader +3 years of experience and professional ontological coach, with more than 3,000 people</p>
+                                <h3 className='text-[18px]/[32px] font-title font-bold text-white tracking-[2px]'>Sarah John</h3>
+                                <p className='text-sm font-text font-normal text-slate'>CEO of Own Multi Company</p>
                             </div>
                         </div>
-                        <Link href="#" className='btn btn-2 group mx-4 sm:mx-0'>Learn today with me <span className='bg-btn-bg-3 group-hover:bg-none group-hover:bg-black group-hover:animate-toRightFromLeft'><LiaAngleRightSolid size={12} className='text-black align-baseline group-hover:text-slate-400'/></span></Link>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="mentor-card flex flex-col justify-between flex-1">
-                        <div className="card-content">
-                            <div className="image">
-                                <Image src="/assets/imgs/mentors/andre.jpg" alt='andre' priority={true} width={0} height={0} sizes='100vw' className='sm:rounded-3xl'/>
+                    <div className="review-card flex flex-col justify-between bg-gradient p-10 border border-border">
+                        <div className="rating flex justify-between items-center border-b-2 border-border pb-8">
+                            <div className='flex items-center gap-1 text-primary'>
+                                <FaStar/>
+                                <FaStar/>
+                                <FaStar/>
+                                <FaStar/>
+                                <FaStar/>
+                            </div>
+                            <img src='/assets/imgs/clutch.png' alt='clutch'/>
+                        </div>
+                        <p className='text-2xl/[40px] font-bold font-title text-white py-8'>Mi auctor sagittis habitasse elit. In orci lorem <b className='text-slate'>sodales sem enim</b> fusce. At sem amet lacus eu aliquet <b className='text-state'>venenatis</b> tell bibendum sapien.</p>
+                        <div className="client-info flex items-center gap-4">
+                            <div className="image w-14 h-14 border border-border rounded-full text-center leading-[56px]">
+                                <Image src="/assets/imgs/avater.png" alt='david' priority={true} width={36} height={36}/>
                             </div>
                             <div className="details px-4 sm:p-0">
-                                <h3 className='text-xl font-text font-bold text-white my-4'>Andrea Torres</h3>
-                                <p className='text-base sm:text-lg font-text font-normal text-slate-400 tracking-tighter mb-5 sm:mb-4 lg:pe-6'>Coach with a master’s degree in bioneuroemtion, speaker, leader with experience in guiding communities of more than 3,000 poeple</p>
+                                <h3 className='text-[18px]/[32px] font-title font-bold text-white tracking-[2px]'>Sarah John</h3>
+                                <p className='text-sm font-text font-normal text-slate'>CEO of Own Multi Company</p>
                             </div>
                         </div>
-                        <Link href="#" className='btn btn-2 group mx-4 sm:mx-0'>Learn today with me <span className='bg-btn-bg-3 group-hover:bg-none group-hover:bg-black group-hover:animate-toRightFromLeft'><LiaAngleRightSolid size={12} className='text-black align-baseline group-hover:text-slate-400'/></span></Link>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="mentor-card flex flex-col justify-between flex-1">
-                        <div className="card-content">
-                            <div className="image">
-                                <Image src="/assets/imgs/mentors/arango.jpg" alt='arango' priority={true} width={0} height={0} sizes='100vw' className='sm:rounded-3xl'/>
+                    <div className="review-card flex flex-col justify-between bg-gradient p-10 border border-border">
+                        <div className="rating flex justify-between items-center border-b-2 border-border pb-8">
+                            <div className='flex items-center gap-1 text-primary'>
+                                <FaStar/>
+                                <FaStar/>
+                                <FaStar/>
+                                <FaStar/>
+                                <FaStar/>
+                            </div>
+                            <img src='/assets/imgs/clutch.png' alt='clutch'/>
+                        </div>
+                        <p className='text-2xl/[40px] font-bold font-title text-white py-8'>Mi auctor sagittis habitasse elit. In orci lorem <b className='text-slate'>sodales sem enim</b> fusce. At sem amet lacus eu aliquet <b className='text-state'>venenatis</b> tell bibendum sapien.</p>
+                        <div className="client-info flex items-center gap-4">
+                            <div className="image w-14 h-14 border border-border rounded-full text-center leading-[56px]">
+                                <Image src="/assets/imgs/avater.png" alt='david' priority={true} width={36} height={36}/>
                             </div>
                             <div className="details px-4 sm:p-0">
-                                <h3 className='text-xl font-text font-bold text-white my-4'>Carolina Arango</h3>
-                                <p className='text-base sm:text-lg font-text font-normal text-slate-400 tracking-tighter mb-5 sm:mb-4 lg:pe-6'>Speaker focused on personal growth, with more than 5 years of experience in leadership of organizations with more than 1,000 people, creator More</p>
+                                <h3 className='text-[18px]/[32px] font-title font-bold text-white tracking-[2px]'>Sarah John</h3>
+                                <p className='text-sm font-text font-normal text-slate'>CEO of Own Multi Company</p>
                             </div>
                         </div>
-                        <Link href="#" className='btn btn-2 group mx-4 sm:mx-0'>Learn today with me <span className='bg-btn-bg-3 group-hover:bg-none group-hover:bg-black group-hover:animate-toRightFromLeft'><LiaAngleRightSolid size={12} className='text-black align-baseline group-hover:text-slate-400'/></span></Link>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="mentor-card flex flex-col justify-between flex-1">
-                        <div className="card-content">
-                            <div className="image">
-                                <Image src="/assets/imgs/mentors/cog.jpg" alt='cog' priority={true} width={0} height={0} sizes='100vw' className='sm:rounded-3xl'/>
+                    <div className="review-card flex flex-col justify-between bg-gradient p-10 border border-border">
+                        <div className="rating flex justify-between items-center border-b-2 border-border pb-8">
+                            <div className='flex items-center gap-1 text-primary'>
+                                <FaStar/>
+                                <FaStar/>
+                                <FaStar/>
+                                <FaStar/>
+                                <FaStar/>
+                            </div>
+                            <img src='/assets/imgs/clutch.png' alt='clutch'/>
+                        </div>
+                        <p className='text-2xl/[40px] font-bold font-title text-white py-8'>Mi auctor sagittis habitasse elit. In orci lorem <b className='text-slate'>sodales sem enim</b> fusce. At sem amet lacus eu aliquet <b className='text-state'>venenatis</b> tell bibendum sapien.</p>
+                        <div className="client-info flex items-center gap-4">
+                            <div className="image w-14 h-14 border border-border rounded-full text-center leading-[56px]">
+                                <Image src="/assets/imgs/avater.png" alt='david' priority={true} width={36} height={36}/>
                             </div>
                             <div className="details px-4 sm:p-0">
-                                <h3 className='text-xl font-text font-bold text-white my-4'>Andrés cog</h3>
-                                <p className='text-base sm:text-lg font-text font-normal text-slate-400 tracking-tighter mb-5 sm:mb-4 lg:pe-6'>Trader profesional + 4 años de experiencia en el mercado de Forex, Gestor patrimonial y Financiero + 800 Mil usd, con +6 años experiencia en proyección y exposición empresarial.</p>
+                                <h3 className='text-[18px]/[32px] font-title font-bold text-white tracking-[2px]'>Sarah John</h3>
+                                <p className='text-sm font-text font-normal text-slate'>CEO of Own Multi Company</p>
                             </div>
                         </div>
-                        <Link href="#" className='btn btn-2 group mx-4 sm:mx-0'>Learn today with me <span className='bg-btn-bg-3 group-hover:bg-none group-hover:bg-black group-hover:animate-toRightFromLeft'><LiaAngleRightSolid size={12} className='text-black align-baseline group-hover:text-slate-400'/></span></Link>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="mentor-card flex flex-col justify-between flex-1">
-                        <div className="card-content">
-                            <div className="image">
-                                <Image src="/assets/imgs/mentors/david.jpg" alt='david' priority={true} width={0} height={0} sizes='100vw' className='sm:rounded-3xl'/>
+                    <div className="review-card flex flex-col justify-between bg-gradient p-10 border border-border">
+                        <div className="rating flex justify-between items-center border-b-2 border-border pb-8">
+                            <div className='flex items-center gap-1 text-primary'>
+                                <FaStar/>
+                                <FaStar/>
+                                <FaStar/>
+                                <FaStar/>
+                                <FaStar/>
+                            </div>
+                            <img src='/assets/imgs/clutch.png' alt='clutch'/>
+                        </div>
+                        <p className='text-2xl/[40px] font-bold font-title text-white py-8'>Mi auctor sagittis habitasse elit. In orci lorem <b className='text-slate'>sodales sem enim</b> fusce. At sem amet lacus eu aliquet <b className='text-state'>venenatis</b> tell bibendum sapien.</p>
+                        <div className="client-info flex items-center gap-4">
+                            <div className="image w-14 h-14 border border-border rounded-full text-center leading-[56px]">
+                                <Image src="/assets/imgs/avater.png" alt='david' priority={true} width={36} height={36}/>
                             </div>
                             <div className="details px-4 sm:p-0">
-                                <h3 className='text-xl font-text font-bold text-white my-4'>David Guerrero</h3>
-                                <p className='text-base sm:text-lg font-text font-normal text-slate-400 tracking-tighter mb-5 sm:mb-4 lg:pe-6'>Professional trader +3 years of experience and professional ontological coach, with more than 3,000 people</p>
+                                <h3 className='text-[18px]/[32px] font-title font-bold text-white tracking-[2px]'>Sarah John</h3>
+                                <p className='text-sm font-text font-normal text-slate'>CEO of Own Multi Company</p>
                             </div>
                         </div>
-                        <Link href="#" className='btn btn-2 group mx-4 sm:mx-0'>Learn today with me <span className='bg-btn-bg-3 group-hover:bg-none group-hover:bg-black group-hover:animate-toRightFromLeft'><LiaAngleRightSolid size={12} className='text-black align-baseline group-hover:text-slate-400'/></span></Link>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className="mentor-card flex flex-col justify-between flex-1">
-                        <div className="card-content">
-                            <div className="image">
-                                <Image src="/assets/imgs/mentors/andre.jpg" alt='andre' priority={true} width={0} height={0} sizes='100vw' className='sm:rounded-3xl'/>
-                            </div>
-                            <div className="details px-4 sm:p-0">
-                                <h3 className='text-xl font-text font-bold text-white my-4'>Andrea Torres</h3>
-                                <p className='text-base sm:text-lg font-text font-normal text-slate-400 tracking-tighter mb-5 sm:mb-4 lg:pe-6'>Coach with a master’s degree in bioneuroemtion, speaker, leader with experience in guiding communities of more than 3,000 poeple</p>
-                            </div>
-                        </div>
-                        <Link href="#" className='btn btn-2 group mx-4 sm:mx-0'>Learn today with me <span className='bg-btn-bg-3 group-hover:bg-none group-hover:bg-black group-hover:animate-toRightFromLeft'><LiaAngleRightSolid size={12} className='text-black align-baseline group-hover:text-slate-400'/></span></Link>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className="mentor-card flex flex-col justify-between flex-1">
-                        <div className="card-content">
-                            <div className="image">
-                                <Image src="/assets/imgs/mentors/arango.jpg" alt='arango' priority={true} width={0} height={0} sizes='100vw' className='sm:rounded-3xl'/>
-                            </div>
-                            <div className="details px-4 sm:p-0">
-                                <h3 className='text-xl font-text font-bold text-white my-4'>Carolina Arango</h3>
-                                <p className='text-base sm:text-lg font-text font-normal text-slate-400 tracking-tighter mb-5 sm:mb-4 lg:pe-6'>Speaker focused on personal growth, with more than 5 years of experience in leadership of organizations with more than 1,000 people, creator More</p>
-                            </div>
-                        </div>
-                        <Link href="#" className='btn btn-2 group mx-4 sm:mx-0'>Learn today with me <span className='bg-btn-bg-3 group-hover:bg-none group-hover:bg-black group-hover:animate-toRightFromLeft'><LiaAngleRightSolid size={12} className='text-black align-baseline group-hover:text-slate-400'/></span></Link>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className="mentor-card flex flex-col justify-between flex-1">
-                        <div className="card-content">
-                            <div className="image">
-                                <Image src="/assets/imgs/mentors/cog.jpg" alt='cog' priority={true} width={0} height={0} sizes='100vw' className='sm:rounded-3xl'/>
-                            </div>
-                            <div className="details px-4 sm:p-0">
-                                <h3 className='text-xl font-text font-bold text-white my-4'>Andrés cog</h3>
-                                <p className='text-base sm:text-lg font-text font-normal text-slate-400 tracking-tighter mb-5 sm:mb-4 lg:pe-6'>Trader profesional + 4 años de experiencia en el mercado de Forex, Gestor patrimonial y Financiero + 800 Mil usd, con +6 años experiencia en proyección y exposición empresarial.</p>
-                            </div>
-                        </div>
-                        <Link href="#" className='btn btn-2 group mx-4 sm:mx-0'>Learn today with me <span className='bg-btn-bg-3 group-hover:bg-none group-hover:bg-black group-hover:animate-toRightFromLeft'><LiaAngleRightSolid size={12} className='text-black align-baseline group-hover:text-slate-400'/></span></Link>
                     </div>
                 </SwiperSlide>
 
-                <button className='swiper-button-prev'>previous</button>
-                <button className='swiper-button-next'>next</button>
+                <div className='text-center space-x-4 mt-16'>
+                    <button className='swiper-button-prev w-[58px] h-[58px] inline-flex justify-center items-center border border-border rounded-full group transition-all duration-100 ease-linear hover:bg-white'><HiChevronLeft size={24} className='text-white group-hover:text-primary'/></button>
+                    <button className='swiper-button-prev w-[58px] h-[58px] inline-flex justify-center items-center border border-border rounded-full group transition-all duration-100 ease-linear hover:bg-white'><HiChevronRight size={24} className='text-white group-hover:text-primary'/></button>
+                </div>
 
             </Swiper>}
         </>

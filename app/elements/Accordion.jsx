@@ -16,7 +16,7 @@ const Accordion = ({ques, ans}) => {
 
     return (
         <>
-            <div className='border border-[#2E2E2E] rounded-[20px] px-14 py-8 bg-gradient'>
+            <div className='border border-border rounded-[20px] px-14 py-8 bg-gradient'>
                 <h2>
                     <button className="flex items-center justify-between w-full"
                         onClick={(e) => { e.preventDefault(); setAccordionOpen(!accordionOpen); }}

@@ -18,7 +18,8 @@ module.exports = {
       colors: {
         primary: "#36B7FF",
         secondary: "#CBD5E0",
-        slate: "#9AA19E"
+        slate: "#9AA19E",
+        border:"#2E2E2E"
       },
       container:{  
         center: true,
