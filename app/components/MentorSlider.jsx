@@ -61,7 +61,7 @@ const MentorSlider = () => {
                         slidesPerView: 3,
                     }
                 }}
-                className="mentors-slider mt-32"
+                className="mentors-slider mt-24"
             >
 
                 <SwiperSlide>

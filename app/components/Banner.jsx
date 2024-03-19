@@ -8,13 +8,13 @@ import { HiOutlineArrowRight } from "react-icons/hi";
 const Banner = () => {
     return (
         <>
-            <div className="pri-banner">
+            <div className="pri-banner pt-20">
                 <div className="container">
                     <div className="banner-content">
                         <h1 className='banner-title !mb-8'>New Era of <span className='text-primary'>banking.</span></h1>
                         <Link href="/register" className='flex justify-center items-center w-64 h-20 rounded-[117px] font-text text-2xl font-bold text-primary bg-btn-bg mx-auto group'>Get Started <HiOutlineArrowRight size={26} className='rotate-[-45deg] ms-4 transition-all duration-100 ease-linear group-hover:rotate-0'/></Link>
                     </div>
-                    <div className="banner-info grid grid-cols-4 items-start gap-8">
+                    <div className="banner-info grid grid-col-1 lg:grid-cols-2 xl:grid-cols-4 items-start gap-8">
                         <div>
                             <span className='relative block w-24 h-[2px] rounded-sm bg-primary before:content-[""] before:absolute before:right-[-48px] before:w-8 before:h-[2px] before:bg-primary before:rounded-sm'></span>
                             <p className='font-text text-xl font-normal text-slate mt-4 tracking-tighter py-1'>Mi auctor sagittis habitasse elit. In orci lorem sodales sem enim fusce. At sem amet lacus eu aliquet venenatis tell bibendum sapien.</p>
@@ -24,7 +24,7 @@ const Banner = () => {
                                 <Image src="/assets/imgs/react-icon.png" alt='Icon' width={64} height={64} className='absolute w-auto h-auto right-[-24px] top-2 animate-spin-slow'/>
                             </div>
                         </div>
-                        <div className="col-span-2">
+                        <div className="xl:col-span-2">
                             <img src="./assets/imgs/cards.png" alt="Prism Debit Card" />
                         </div>
                         <div className="callout border-[1.5px] border-primary rounded-[10px] p-8 mt-[50%]">

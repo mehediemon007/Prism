@@ -10,8 +10,8 @@ const Footer = () => {
             <footer className="pri-footer bg-gradient">
             <div className="container">
             <div className="footer-top py-16">
-                <div className="grid grid-cols-6">
-                    <div className="col-span-2">
+                <div className="grid grid-col-1 lg:grid-cols-6">
+                    <div className="lg:col-span-2">
                         <div className="footer-content">
                             <Link href="/" className="logo w-max">
                                 <Image
@@ -25,8 +25,8 @@ const Footer = () => {
                             <p className="max-w-60 font-text text-xl/[32px] font-normal text-slate tracking-tighter mt-10">Mi auctor sagittis habitasse elit. In orci lorem sodales sem enim fusce.</p> 
                         </div>
                     </div>
-                    <div className="col-span-4">
-                        <div className="flex justify-between">
+                    <div className="lg:col-span-4">
+                        <div className="grid grid-cols-2 lg:flex lg:justify-between">
                             <div className="footer-widget">
                                 <h2>Company</h2>
                                 <ul className="footer-menu">

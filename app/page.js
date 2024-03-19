@@ -7,6 +7,7 @@ import Mentors from "./components/Mentors";
 import Partners from "./components/Partners";
 import Features from "./components/Features";
 import About from "./components/About";
+import ScrollTop from "./elements/ScrollTop";
 
 export default function Home() {
   return (
@@ -15,7 +16,7 @@ export default function Home() {
       <main>
         <Banner/>
         <Partners/>
-        <section>
+        <section id="about" className="pt-32">
           <div className="container">
             <About/>
           </div>
@@ -25,18 +26,19 @@ export default function Home() {
             <Features/>
           </div>
         </section>
-        <section id='mentors' className="pt-40">
+        <section id='mentors' className="pt-32">
           <div className="container pr-0">
             <Mentors/>
           </div>
         </section>
-        <section id="fqa" className="py-40">
+        <section id="fqa" className="py-32">
           <div className="container">
             <Faq/>
           </div>
         </section>
       </main>
       <Footer/>
+      <ScrollTop/>
     </>
     
   );

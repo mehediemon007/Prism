@@ -33,7 +33,7 @@ export default function Login() {
         <>  
             <div className="auth-layout-wrapper grid grid-cols-2 min-h-screen">
                 <div className="pri-auth flex flex-col justify-between flex-1">
-                    <div className='flex justify-between items-center py-4'>
+                    <div className='flex justify-between items-center py-6'>
                         <Link href="/" className="logo space-x-3 text-center">
                             <Image
                                 src='/assets/imgs/logo.png'

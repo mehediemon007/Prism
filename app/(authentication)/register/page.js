@@ -30,7 +30,7 @@ export default function Register() {
     return(
         <>
             <div className="pri-auth">
-                <div className='flex justify-between items-center py-4'>
+                <div className='flex justify-between items-center py-6'>
                     <Link href="/" className="logo space-x-3 text-center">
                         <Image
                             src='/assets/imgs/logo.png'

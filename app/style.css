@@ -39,14 +39,46 @@
 
 }
 
+/* Header */
+
+.pri-header.sticky {
+  @apply fixed shadow-sm sm:shadow-md py-2 lg:py-4 z-10 border-border
+}
+
 .nav-menu a {
-  @apply text-base font-normal font-text text-white
+  @apply text-base font-normal font-text text-white hover:text-primary
+}
+
+.nav-actions a {
+  @apply block text-base font-medium font-text text-['#1E2123'] transition-colors duration-200 ease-linear lg:inline-block hover:text-primary
+}
+
+.nav-actions {
+  @apply w-full lg:w-max absolute lg:relative top-[calc(100%+20px)] left-0 lg:top-0 lg:left-0 bg-[#1F1F1F] lg:bg-transparent p-4 lg:p-0 space-y-2 lg:space-y-0 transition-all duration-300 ease-in lg:transition-none
+}
+
+.pre-header.sticky .nav-actions{
+  @apply top-[calc(100%+10px)]
+}
+
+.pre-header.sticky .nav-icon svg {
+  @apply text-black
+}
+
+.layout-sidebar-wrapper.open{
+  @apply z-10
+}
+
+.layout-sidebar-wrapper.open .layout-sidebar{
+  @apply translate-x-0
 }
 
 
+/* Banner */
+
 .banner-title,
 .sec-title {
-  @apply font-title text-[162px]/[144px] font-bold uppercase text-white text-center mb-36 mx-auto tracking-[-4px]
+  @apply font-title text-[44px]/[44px] md:text-[108px]/[104px] xl:text-[162px]/[144px] font-bold uppercase text-white text-center mb-32 mx-auto xl:tracking-[-4px]
 }
 
 /* Features */
@@ -114,7 +146,15 @@
 }
 
 .footer-menu a{
-  @apply inline-block font-text text-sm font-normal text-slate mt-4  text-center tracking-tight
+  @apply inline-block font-text text-sm font-normal text-slate mt-4  text-center tracking-tight hover:text-primary
+}
+
+.scroll-to-top {
+  @apply !bg-primary !rounded-full !right-5 !bottom-5
+}
+
+.scroll-to-top svg {
+  @apply invert inline-block
 }
 
 /* Toggle Switch */

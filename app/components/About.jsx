@@ -8,7 +8,10 @@ import { HiOutlineArrowRight } from "react-icons/hi";
 const About = () => {
     return (
         <>
-            <div className="grid grid-cols-2 bg-gradient border border-border">
+            <div className="sec-heading">
+                <h2 className='sec-title'>FUELING <span className='text-primary'>INNOVATION</span> GROWTH</h2>
+            </div>
+            <div className="grid grid-col-1 lg:grid-cols-2 bg-gradient border border-border">
                 <div className='bg-gradient border border-b-0 border-border ms-8 mt-14 pt-10'>
                     <DebitCard/>
                 </div>

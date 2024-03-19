@@ -9,8 +9,8 @@ import PlusButton from '../elements/PlusButton';
 
 const Features = () => {
     return (
-        <>
-            <div className="features grid grid-cols-2 gap-6 mt-6">
+        <>  
+            <div className="features grid xl:grid-cols-2 gap-6 mt-6">
                 <div className="card border border-border bg-gradient">
                     <div className="relative overflow-hidden pb-16">
                         <Image src="/assets/imgs/help.svg" priority={true} width={0} height={0} sizes='100vw' className='w-[55%] m-6' alt='help'/>
