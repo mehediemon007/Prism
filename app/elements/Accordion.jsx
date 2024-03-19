@@ -22,8 +22,8 @@ const Accordion = ({ques, ans}) => {
                         onClick={(e) => { e.preventDefault(); setAccordionOpen(!accordionOpen); }}
                         aria-expanded={accordionOpen}
                         aria-controls={`accordion-text-01`}>
-                        <span className='font-title text-[32px]/[42px] font-bold text-white text-left tracking-[2px]'>{ques}</span>
-                        <span className="inline-flex justify-center items-center min-w-14 min-h-14 rounded-full bg-white">
+                        <span className='font-title text-[32px]/[42px] font-bold text-left tracking-[2px]'>{ques}</span>
+                        <span className="inline-flex justify-center items-center min-w-14 min-h-14 text-black rounded-full bg-white">
                             {accordionOpen ? <HiMinus size={24}/> : <HiOutlinePlus size={24}/>}
                         </span>           
                     </button>        

@@ -20,7 +20,7 @@ const Banner = () => {
                             <span className='relative block w-24 h-[2px] rounded-sm bg-primary before:content-[""] before:absolute before:right-[-48px] before:w-8 before:h-[2px] before:bg-primary before:rounded-sm'></span>
                             <p className='font-text text-xl font-normal text-slate mt-4 tracking-tighter py-1'>Mi auctor sagittis habitasse elit. In orci lorem sodales sem enim fusce. At sem amet lacus eu aliquet venenatis tell bibendum sapien.</p>
                             <div className='relative flex flex-col items-start justify-center w-72 h-20 bg-[#1F1F1F] rounded-[80px] px-12 mt-8'>
-                                <p className='text-2xl font-medium font-text text-white tracking-[-2px]'>How Prism works</p>
+                                <p className='text-2xl font-medium font-text tracking-[-2px]'>How Prism works</p>
                                 <p className='text-[17px] font-normal font-text text-slate'>In 3 simple steps</p>
                                 <Image src="/assets/imgs/react-icon.png" alt='Icon' width={64} height={64} className='absolute right-[-24px] top-2'/>
                             </div>

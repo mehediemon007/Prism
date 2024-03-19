@@ -55,7 +55,7 @@ const Header = () => {
                     </div>
                     <div>
                         <button type='button' className="nav-icon lg:hidden" aria-label='Main Menu Icon' onClick={()=> setOpen(!isOpen)}>
-                            {isOpen ? <RxCross1 size={28} className='text-white sm:text-black'/> : <RxHamburgerMenu size={28} className='text-white sm:text-black'/>}
+                            {isOpen ? <RxCross1 size={28} className='sm:text-black'/> : <RxHamburgerMenu size={28} className='sm:text-black'/>}
                         </button>
                         <div className={`nav-actions ${ isOpen ? 'block' : 'hidden'} lg:!flex items-center gap-x-12`}>
                             <div className="mobile-nav lg:hidden space-y-2">
@@ -64,8 +64,8 @@ const Header = () => {
                                 <a href="/#services" onClick={()=> setOpen(!isOpen)}>FAQ</a>
                                 <a href="/#mentors" onClick={()=> setOpen(!isOpen)}>Support</a>
                             </div>
-                            <Link href="/login" onClick={()=> setOpen(!isOpen)} className='text-base font-normal font-text text-white'>Log in</Link>
-                            <Link href="/register" onClick={()=> setOpen(!isOpen)} className='text-base font-normal font-text text-white border border-[#a5a9b633] rounded-[28px] w-[192px] h-[50px] text-center leading-[50px]'>Register -<span className='text-xs text-slate'> It's free</span></Link>
+                            <Link href="/login" onClick={()=> setOpen(!isOpen)} className='text-base font-normal font-text'>Log in</Link>
+                            <Link href="/register" onClick={()=> setOpen(!isOpen)} className='text-base font-normal font-text border border-[#a5a9b633] rounded-[28px] w-[192px] h-[50px] text-center leading-[50px]'>Register -<span className='text-xs text-slate'> It's free</span></Link>
                         </div>
                     </div>
                 </div>

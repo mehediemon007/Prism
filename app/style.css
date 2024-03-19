@@ -9,7 +9,7 @@
 
   body {
     -webkit-tap-highlight-color: transparent;
-    @apply box-border overflow-x-hidden bg-black
+    @apply box-border overflow-x-hidden bg-black text-white
   }
   
   img {
@@ -30,12 +30,16 @@
 
 /* Features */
 
-.features .card h3 {
+.features .card-content h2 {
   @apply max-w-md text-[40px]/[50px] font-bold font-title text-white mt-4
 }
 
-.features .card p {
+.features .card-content p {
   @apply text-[20px]/[30px] font-normal font-text text-slate pr-7 mt-6
+}
+
+.features .card .pill {
+  @apply text-[22px]/[28px] font-poppins font-normal border rounded-[28px] border-border py-2 px-6
 }
 
 /* Partners */

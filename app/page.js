@@ -19,7 +19,7 @@ export default function Home() {
             <Features/>
           </div>
         </section>
-        <section id='mentors' className='pre-mentors bg-slate-600'>
+        <section id='mentors' className="pt-40">
           <div className="container pr-0">
             <Mentors/>
           </div>
