@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import AuthFooter from '../../components/AuthFooter';
 
 // ** Import Icons
 import { BsEye, BsEyeSlash} from "react-icons/bs";
@@ -24,17 +25,18 @@ export default function Register() {
                             height={25}
                         />
                     </Link>
-                    <div>
-                        <Link href="/login" className='text-base font-normal font-text'>Already a member</Link>
-                        <Link href="/register" className='text-base font-normal font-text border border-[#a5a9b633] rounded-[28px] w-[192px] h-[50px] text-center leading-[50px]'>Sign In</Link>
+                    <div className="space-x-4">
+                        <span className='text-base font-normal font-text'>Already a member</span>
+                        <Link href="/login" className='text-base font-normal font-text text-black px-4 py-2 bg-white rounded-lg inline-flex justify-center items-center'>Sign In</Link>
                     </div>
                 </div>
-                <div className="heading">
-                    <h2>Register your account</h2>
-                    <p>Enter your details to Register.</p>
+                <div className="heading text-center space-y-2">
+                    <Image src="/assets/imgs/user.svg" alt="user" width={88} height={88} className="mb-2"/>
+                    <h2 className="text-2xl font-title">Register your account</h2>
+                    <p className="text-base font-text">Enter your details to Register.</p>
                 </div>
                 <form action="#" className="grid grid-cols-2 gap-4">
-                    <p className="col-span-2"><IoMdAlert/> Please use your real information as this will need to be confirmed.</p>
+                    <p className="col-span-2 text-sm font-text text-primary flex items-center gap-2 my-4"><IoMdAlert/> Please use your real information as this will need to be confirmed.</p>
                     <div className="input-grp required relative">
                         <label htmlFor="user">Username</label>
                         <input type="text" id="user" placeholder="hello@alignui.com"/>
@@ -67,7 +69,7 @@ export default function Register() {
                             <input type="email" id="email" placeholder="hello@alignui.com"/>
                         </div>
                     </div>
-                    <p className="col-span-2"><IoMdAlert/> Please use your real information as this will need to be confirmed.</p>
+                    <p className="col-span-2 text-sm font-text text-primary flex items-center gap-2 my-4"><IoMdAlert/> Please use your real information as this will need to be confirmed.</p>
                     <div className="grid grid-cols-3 col-span-2 gap-4">
                         <div className="input-grp required relative col-span-1">
                             <label htmlFor="country">Country</label>
@@ -98,6 +100,7 @@ export default function Register() {
                     <button type="submit" className="bg-primary">Register</button>
                 </form>
             </div>
+            <AuthFooter/>
         </>
     )
 }

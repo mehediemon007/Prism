@@ -33,6 +33,10 @@
     @apply relative inline-block text-[21px] font-semibold font-poppins mb-2
   }
 
+  .pri-auth .input-grp .icon {
+    @apply absolute top-[60%] right-4
+  }
+
 }
 
 .nav-menu a {
@@ -96,7 +100,7 @@
 }
 
 .pri-auth input[type="password"]::placeholder {
-  @apply text-xl align-top
+  @apply text-2xl align-top
 }
 
 .pri-auth button {
@@ -147,10 +151,10 @@
 
 @keyframes marquree{
   0% {
-      transform: translate(0,0);
+    transform: translate(0,0);
   }
   100% {
-      transform: translate(-100%, 0);
+    transform: translate(-100%, 0);
   }
 }
 
