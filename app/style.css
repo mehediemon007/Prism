@@ -81,6 +81,28 @@
   @apply w-full
 }
 
+/* Auth Form */
+
+.pri-auth label {
+  @apply text-base font-text font-medium
+}
+
+.pri-auth input {
+  @apply h-auto p-2 ps-4 text-base font-text font-normal bg-[#1F1F1F]
+}
+
+.pri-auth input::placeholder {
+  @apply text-sm font-text font-normal text-white
+}
+
+.pri-auth input[type="password"]::placeholder {
+  @apply text-xl align-top
+}
+
+.pri-auth button {
+  @apply p-2 border border-primary rounded-[10px] mt-2
+}
+
 /* Footer */
 
 .footer-widget h5 {
@@ -91,26 +113,7 @@
   @apply inline-block font-text text-sm font-normal text-slate mt-4  text-center tracking-tight
 }
 
-@keyframes marquree{
-  0% {
-      transform: translate(0,0);
-  }
-  100% {
-      transform: translate(-100%, 0);
-  }
-}
-
-/* Debit Cards Customize*/
-
-.rccs__card--unknown > div {
-  background: linear-gradient(25deg, #36B7FF, #36B7FF) !important;
-}
-
-.rccs {
-  @apply !w-full
-}
-
-/* Switch */
+/* Toggle Switch */
 
 .switch-checkbox {
   @apply w-0 h-0 invisible
@@ -141,3 +144,13 @@
 /* .switch-label:active .switch-button {
   width: 60px;
 } */
+
+@keyframes marquree{
+  0% {
+      transform: translate(0,0);
+  }
+  100% {
+      transform: translate(-100%, 0);
+  }
+}
+
