@@ -11,12 +11,12 @@ const Features = () => {
     return (
         <>  
             <div className="features grid xl:grid-cols-2 gap-6 mt-6">
-                <div className="card border border-border bg-gradient flex flex-col-reverse lg:flex-row xl:flex-col">
-                    <div className="relative overflow-hidden pb-16">
+                <div className="card border border-border bg-gradient flex flex-col-reverse lg:flex-row-reverse xl:flex-col lg:gap-x-6">
+                    <div className="relative overflow-hidden pb-16 lg:flex-1">
                         <Image src="/assets/imgs/help.svg" priority={true} width={0} height={0} sizes='100vw' className='w-[55%] ms-6 md:m-6' alt='help'/>
                         <Image src="/assets/imgs/ques.svg" priority={true} width={0} height={0} sizes="100vw" className='w-[44%] absolute top-[120px] right-[-40px]' alt='ques'/>
                     </div>
-                    <div className="card-content p-6 md:pt-0">
+                    <div className="card-content p-6 md:pt-0 lg:flex-1">
                         <div className='flex justify-between items-center'>
                             <h2>24/7 Customer Support</h2>
                             <PlusButton/>
@@ -24,7 +24,7 @@ const Features = () => {
                         <p>We offer round-the-clock customer service, ensuring you have continuous support and assistance for any issues or inquiries, no matter the time or day.</p>
                     </div>
                 </div>
-                <div className="card border border-border bg-gradient flex flex-col lg:flex-row xl:flex-col">
+                <div className="card border border-border bg-gradient flex flex-col lg:flex-row xl:flex-col lg:gap-x-6">
                     <div className="card-content p-6">
                         <div className='flex justify-between items-center'>
                             <h2>Transparent Pricing</h2>
@@ -37,20 +37,20 @@ const Features = () => {
                         <Image src="/assets/imgs/map.svg" priority={true} width={0} height={0} sizes='100vw' className='w-full' alt='map'/>
                     </div>
                 </div>
-                <div className="card border border-border bg-gradient flex flex-col lg:flex-row xl:flex-col">
-                    <div className="card-content p-6">
+                <div className="card border border-border bg-gradient flex flex-col lg:flex-row xl:flex-col lg:gap-x-6">
+                    <div className="card-content p-6 lg:flex-1">
                         <div className='flex justify-between items-center'>
                             <h2>TUnlimited Top-up and Spending</h2>
                             <PlusButton/>
                         </div>
                         <p>Enjoy the freedom of no limits on how much you can top up your Prism Card or spend, giving you complete control over your finances without the worry of hitting any caps or restrictions.</p>
                     </div>
-                    <div className="gap-6 px-6">
+                    <div className="gap-6 px-6 lg:flex-1">
                         <Image src="/assets/imgs/outflow.svg" priority={true} width={0} height={0} sizes='100vw' className='w-full' alt='workflow'/>
                     </div>
                 </div>
-                <div className="card border border-border bg-gradient p-6 overflow-hidden flex flex-col-reverse lg:flex-row xl:flex-col gap-y-6">
-                    <div>
+                <div className="card border border-border bg-gradient p-6 overflow-hidden flex flex-col-reverse lg:flex-row-reverse xl:flex-col gap-y-6 lg:gap-x-6">
+                    <div className='lg:flex-1'>
                         <div className="md:max-w-[80%] rounded-[16px]">
                             <div className="client-info flex items-center gap-4 bg-[#2E2E2E] p-3 md:py-6 md:px-4 lg:py-8 lg:px-6 rounded-[16px]">
                                 <Image src="/assets/imgs/jassica.png" alt='Jassica' priority={true} width={58} height={58} className='w-auto h-auto'/>
@@ -76,7 +76,7 @@ const Features = () => {
                             <button type='submit' className='w-[80%] h-8 xl:h-[68px] rounded-[2px] xl:rounded-lg text-xs xl:text-lg font-poppins font-semibold bg-primary text-black my-4 xl:my-6'>Continue</button>
                         </div>
                     </div>
-                    <div className="card-content">
+                    <div className="card-content lg:flex-1">
                         <div className='flex justify-between items-center'>
                             <h2>Diverse Deposit Options</h2>
                             <PlusButton/>

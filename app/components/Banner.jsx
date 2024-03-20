@@ -8,7 +8,7 @@ import { HiOutlineArrowRight } from "react-icons/hi";
 const Banner = () => {
     return (
         <>
-            <div className="pri-banner pt-20">
+            <div className="pri-banner pt-16 xl:pt-20">
                 <div className="container space-y-8 xl:space-y-2">
                     <div className="banner-content">
                         <h1 className='banner-title !mb-4 !xl:mb-8'>New Era of <span className='text-primary'>banking.</span></h1>
@@ -23,7 +23,7 @@ const Banner = () => {
                                 <p className='text-[17px] font-normal font-text text-slate'>In 3 simple steps</p>
                                 <Image src="/assets/imgs/react-icon.png" alt='Icon' width={64} height={64} className='absolute right-[-24px] top-2 animate-spin-slow'/>
                             </div>
-                            <div className="flex items-center xl:hidden callout border border-primary rounded-lg p-4 mt-8 gap-4">
+                            <div className="lg:w-72 flex items-center xl:hidden callout border border-primary rounded-lg p-4 mt-8 gap-4">
                                 <h2 className='text-4xl font-bold font-title text-primary animate-bounce'>NO!</h2>
                                 <p className='font-text text-xl font-normal text-primary tracking-tighter'>Hidden Charges</p>
                             </div>

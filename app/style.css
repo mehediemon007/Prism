@@ -98,7 +98,7 @@
 /* Partners */
 
 .partner-content{
-  @apply relative flex xl:gap-[64px] overflow-hidden border-y border-[#a5a9b633] py-6 xl:py-12
+  @apply relative flex xl:gap-[64px] overflow-hidden border-y border-[#a5a9b633] py-6 lg:py-8 xl:py-12
 }
 
 .partners{
@@ -110,11 +110,11 @@
 }
 
 .partners .bnd {
-  @apply border-r border-[#A5A9B6] px-6 xl:px-24
+  @apply border-r border-[#A5A9B6] px-6 lg:px-8 xl:px-24
 }
 
 .partner-content img {
-  @apply w-[70px] xl:w-full
+  @apply w-[70px] lg:w-[110px] xl:w-full
 }
 
 /* Auth Form */

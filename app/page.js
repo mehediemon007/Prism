@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import Banner from "./components/Banner";
 import Footer from "./components/Footer";
 import Faq from "./components/Faq";
-import Mentors from "./components/Mentors";
+import Reviews from "./components/Reviews";
 import Partners from "./components/Partners";
 import Features from "./components/Features";
 import About from "./components/About";
@@ -28,7 +28,7 @@ export default function Home() {
         </section>
         <section id='mentors' className="pt-12 md:pt-16 xl:pt-32">
           <div className="container lg:pr-0">
-            <Mentors/>
+            <Reviews/>
           </div>
         </section>
         <section id="fqa" className="py-12 md:py-16 xl:py-32">

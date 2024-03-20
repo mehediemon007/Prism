@@ -5,10 +5,10 @@ import Link from 'next/link';
 import { FaStar } from "react-icons/fa";
 import { HiChevronRight, HiChevronLeft } from "react-icons/hi2";
 
-import MentorSlider from './MentorSlider';
+import ReviewSlider from './ReviewSlider';
 
 
-const Mentors = () => {
+const Reviews = () => {
     
     return (
         <>  
@@ -88,9 +88,9 @@ const Mentors = () => {
                 </div>
             </div>
 
-            <MentorSlider/>
+            <ReviewSlider/>
         </>
     )
 }
 
-export default Mentors;
+export default Reviews;

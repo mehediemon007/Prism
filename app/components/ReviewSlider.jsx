@@ -13,7 +13,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { FaStar } from "react-icons/fa";
 import { HiChevronRight, HiChevronLeft } from "react-icons/hi2";
 
-const MentorSlider = () => {
+const ReviewSlider = () => {
 
     const [isMobile, setIsMobile] = useState(false);
 
@@ -41,7 +41,7 @@ const MentorSlider = () => {
         <>
             {!isMobile && <Swiper
                 modules={[Navigation, Autoplay]}
-                slidesPerView={2.5}
+                slidesPerView={1.5}
                 slidesPerGroupSkip={1}
                 spaceBetween={32}
                 loop={true}
@@ -57,6 +57,9 @@ const MentorSlider = () => {
                 speed={2000}
                 breakpoints={{
                     // when window width is >= 1280
+                    1280: {
+                        slidesPerView: 2.5,
+                    },
                     1600: {
                         slidesPerView: 3,
                     }
@@ -195,4 +198,4 @@ const MentorSlider = () => {
     )
 }
 
-export default MentorSlider;
+export default ReviewSlider;
