@@ -57,7 +57,7 @@ const Header = () => {
                         <button type='button' className="nav-icon lg:hidden" aria-label='Main Menu Icon' onClick={()=> setOpen(!isOpen)}>
                             {isOpen ? <RxCross1 size={28}/> : <RxHamburgerMenu size={28}/>}
                         </button>
-                        <div className={`nav-actions ${ isOpen ? 'block' : 'hidden'} lg:!flex items-center gap-x-8 xl:gap-x-12`}>
+                        <div className={`nav-actions ${ isOpen ? 'block' : 'hidden'} lg:!flex items-center xl:gap-x-12`}>
                             <div className="mobile-nav lg:hidden space-y-2">
                                 <a href="/#services" onClick={()=> setOpen(!isOpen)}>Features</a>
                                 <a href="/#services" onClick={()=> setOpen(!isOpen)}>Pricing</a>
@@ -65,7 +65,7 @@ const Header = () => {
                                 <a href="/#reviews" onClick={()=> setOpen(!isOpen)}>Support</a>
                             </div>
                             <Link href="/login" onClick={()=> setOpen(!isOpen)}>Log in</Link>
-                            <Link href="/register" onClick={()=> setOpen(!isOpen)} className='lg:border lg:border-[#a5a9b633] lg:rounded-[28px] lg:w-[192px] lg:h-[50px] lg:text-center lg:!leading-[50px]'>Register -<span className='text-xs text-slate'> It's free</span></Link>
+                            <Link href="/register" onClick={()=> setOpen(!isOpen)} className='lg:border lg:border-[#a5a9b633] lg:rounded-[28px] lg:w-[192px] lg:h-[50px] lg:text-center lg:!leading-[50px]'>Register -<span className='text-xs lg:text-slate'> It's free</span></Link>
                         </div>
                     </div>
                 </div>

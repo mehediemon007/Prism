@@ -8,7 +8,7 @@ import { HiOutlineArrowRight } from "react-icons/hi";
 const Banner = () => {
   return (
     <>
-      <div className="pri-banner pt-16 xl:pt-20">
+      <div className="pri-banner pt-20">
         <div className="container space-y-8 xl:space-y-2">
           <div className="banner-content">
             <h1 className="banner-title !mb-4 !xl:mb-8">

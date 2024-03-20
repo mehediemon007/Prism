@@ -31,7 +31,7 @@ export default function Login() {
 
     return(
         <>  
-            <div className="auth-layout-wrapper grid grid-col-1 lg:grid-cols-2 min-h-screen">
+            <div className="auth-layout-wrapper grid grid-col-1 lg:grid-cols-2 min-h-svh">
                 <div className="pri-auth flex flex-col justify-between flex-1">
                     <div className='sticky top-0 flex justify-between items-center py-4 lg:py-6 bg-black z-20'>
                         <Link href="/" className="logo space-x-3 text-center">

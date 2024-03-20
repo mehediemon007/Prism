@@ -14,7 +14,7 @@ const Features = () => {
                 <div className="card border border-border bg-gradient flex flex-col-reverse lg:flex-row-reverse xl:flex-col lg:gap-x-6">
                     <div className="relative overflow-hidden pb-16 lg:flex-1">
                         <Image src="/assets/imgs/help.svg" priority={true} width={0} height={0} sizes='100vw' className='w-[55%] ms-6 md:m-6' alt='help'/>
-                        <Image src="/assets/imgs/ques.svg" priority={true} width={0} height={0} sizes="100vw" className='w-[44%] absolute top-[120px] right-[-40px]' alt='ques'/>
+                        <Image src="/assets/imgs/ques.svg" priority={true} width={0} height={0} sizes="100vw" className='w-[44%] absolute top-[72px] md:top-[126px] lg:top-[120px] right-[-40px]' alt='ques'/>
                     </div>
                     <div className="card-content p-6 md:pt-0 lg:flex-1">
                         <div className='flex justify-between items-center'>

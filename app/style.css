@@ -54,7 +54,7 @@
 }
 
 .nav-actions {
-  @apply w-full lg:w-max absolute lg:relative top-[calc(100%+10px)] left-0 lg:top-0 lg:left-0 bg-[#1F1F1F] lg:bg-transparent p-4 lg:p-0 space-y-2 lg:space-y-0 transition-all duration-300 ease-in lg:transition-none z-20
+  @apply w-full lg:w-max absolute lg:relative top-[calc(100%+10px)] left-0 lg:top-0  bg-primary lg:bg-transparent p-4 lg:p-0 space-y-2 lg:space-y-0 transition-all duration-300 ease-in lg:transition-none z-20
 }
 
 .pri-header.sticky .nav-actions{
@@ -78,7 +78,7 @@
 
 .banner-title,
 .sec-title {
-  @apply font-title text-[44px]/[44px] md:text-[108px]/[104px] xl:text-[162px]/[144px] font-bold uppercase text-white text-center mb-12 md:mb-16 xl:mb-32 mx-auto xl:tracking-[-4px]
+  @apply font-title text-[44px]/[44px] sm:text-6xl md:text-[108px]/[104px] xl:text-[162px]/[144px] font-bold uppercase text-white text-center mb-12 md:mb-16 xl:mb-32 mx-auto xl:tracking-[-4px]
 }
 
 /* Features */
