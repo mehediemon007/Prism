@@ -48,9 +48,9 @@ const Header = () => {
                         />
                     </Link>
                     <div className="nav-menu hidden items-center gap-x-12 xl:gap-x-16 lg:flex">
-                        <a href="/#services">Features</a>
-                        <a href="/#reviews">Pricing</a>
-                        <a href='/#'>FAQ</a>
+                        <a href="/#about">Features</a>
+                        <a href="/#">Pricing</a>
+                        <a href='/#faq'>FAQ</a>
                         <a href='/#'>Support</a>
                     </div>
                     <div>
@@ -59,10 +59,10 @@ const Header = () => {
                         </button>
                         <div className={`nav-actions ${ isOpen ? 'block' : 'hidden'} lg:!flex items-center xl:gap-x-12`}>
                             <div className="mobile-nav lg:hidden space-y-2">
-                                <a href="/#services" onClick={()=> setOpen(!isOpen)}>Features</a>
-                                <a href="/#services" onClick={()=> setOpen(!isOpen)}>Pricing</a>
-                                <a href="/#services" onClick={()=> setOpen(!isOpen)}>FAQ</a>
-                                <a href="/#reviews" onClick={()=> setOpen(!isOpen)}>Support</a>
+                                <a href="/#about" onClick={()=> setOpen(!isOpen)}>Features</a>
+                                <a href="/#" onClick={()=> setOpen(!isOpen)}>Pricing</a>
+                                <a href="/#faq" onClick={()=> setOpen(!isOpen)}>FAQ</a>
+                                <a href="/#" onClick={()=> setOpen(!isOpen)}>Support</a>
                             </div>
                             <Link href="/login" onClick={()=> setOpen(!isOpen)}>Log in</Link>
                             <Link href="/register" onClick={()=> setOpen(!isOpen)} className='lg:border lg:border-[#a5a9b633] lg:rounded-[28px] lg:w-[192px] lg:h-[50px] lg:text-center lg:!leading-[50px]'>Register -<span className='text-xs lg:text-slate'> It's free</span></Link>

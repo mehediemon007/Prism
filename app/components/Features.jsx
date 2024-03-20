@@ -40,7 +40,7 @@ const Features = () => {
                 <div className="card border border-border bg-gradient flex flex-col lg:flex-row xl:flex-col lg:gap-x-6">
                     <div className="card-content p-6 lg:flex-1">
                         <div className='flex justify-between items-center'>
-                            <h2>TUnlimited Top-up and Spending</h2>
+                            <h2>Unlimited Top-up and Spending</h2>
                             <PlusButton/>
                         </div>
                         <p>Enjoy the freedom of no limits on how much you can top up your Prism Card or spend, giving you complete control over your finances without the worry of hitting any caps or restrictions.</p>
@@ -63,7 +63,7 @@ const Features = () => {
                         <div className="calculaotr">
                             <div className='flex justify-end items-center gap-2 mt-4 md:mt-8 md:mr-[-24px]'>
                                 <span className='inline-block px-1 py-0 rounded-sm bg-[#F9A80A] text-sm font-poppins font-semibold'>USD</span>
-                                <h2 className='w-[60%] md:w-[45%] text-3xl xl:text-6xl font-poppins font-normal border-b-2 border-border pb-2'><sup className='text-2xl top-[-32px]'>$</sup>560.00</h2>
+                                <h2 className='w-[60%] md:w-[45%] text-3xl xl:text-6xl font-poppins font-normal border-b-2 border-border pb-2'><sup className='text-xl xl:text-2xl -top-4 xl:top-[-32px]'>$</sup>560.00</h2>
                             </div>
                             <div className='flex gap-3 items-center justify-end mt-4 xl:mt-6'>
                                 <span className='text-xs xl:text-2xl font-poppins font-normal text-[#D93C3C]'>+ Fee $100</span>

@@ -16,7 +16,7 @@ export default function Home() {
       <main>
         <Banner/>
         <Partners/>
-        <section id="about" className="pt-12 md:pt-16 xl:pt-32">
+        <section id="about" className="pt-12 md:pt-16 xl:pt-32 scroll-mt-8 lg:scroll-mt-16">
           <div className="container">
             <About/>
           </div>
@@ -31,7 +31,7 @@ export default function Home() {
             <Reviews/>
           </div>
         </section>
-        <section id="fqa" className="py-12 md:py-16 xl:py-32">
+        <section id="faq" className="py-12 md:py-16 xl:py-32 scroll-mt-8 lg:scroll-mt-16">
           <div className="container">
             <Faq/>
           </div>
