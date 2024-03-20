@@ -124,7 +124,7 @@
 }
 
 .pri-auth input {
-  @apply h-auto p-2 ps-4 text-sm lg:text-base font-text font-normal bg-[#1F1F1F]
+  @apply h-auto p-2 lg:ps-4 text-sm lg:text-base font-text font-normal bg-[#1F1F1F]
 }
 
 .pri-auth input::placeholder {
@@ -136,7 +136,7 @@
 }
 
 .pri-auth button {
-  @apply p-1 lg:p-2 border border-primary rounded-[10px] mt-1 lg:mt-2
+  @apply text-sm lg:text-base p-1 lg:p-2 border border-primary rounded-[10px] lg:mt-2
 }
 
 /* Footer */

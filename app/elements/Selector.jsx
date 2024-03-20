@@ -42,7 +42,7 @@ const Selector = () => {
   return (
     <div className="">
         <div onClick={() => setOpen(!open)} className={`flex items-center justify-between cursor-pointer p-2 ps-4 bg-[#1F1F1F] rounded-[6px]`}>
-            <b className='text-base font-text font-normal'>{selected.name}</b>
+            <b className='text-sm lg:text-base font-text font-normal'>{selected.name}</b>
             {open ? <PiCaretUpLight size={16} className='text-slate-900'/> : <PiCaretDownLight size={16} className='text-slate-900'/>}
         </div>
         <ul className={` mt-2 overflow-y-auto ${ open ? "max-h-50" : "max-h-0"} transition-all duration-200 ease-linear`}>
@@ -55,7 +55,7 @@ const Selector = () => {
                 }}
                 >   
                     <div className="cursor-pointer bg-[#1F1F1F] py-2 px-4">
-                        <b className='text-sm font-text font-normal'>{item.name}</b>
+                        <b className='text-xs lg:text-sm font-text font-normal'>{item.name}</b>
                     </div>
                 </li>
             ))}
