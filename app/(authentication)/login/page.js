@@ -74,7 +74,7 @@ export default function Login() {
                 <div className="auth-banner hidden lg:flex  flex-col justify-center items-center gap-8 p-8">
                     <div className='relative'>
                         <Image src="/assets/imgs/check.svg" alt='Cards' priority={true} width={0} height={318} sizes="100vw" className="w-full absolute top-[50%] translate-y-[-50%] z-[-1]"/>
-                        <Image src="/assets/imgs/cards2.png" alt='Cards' priority={true} width={652} height={480}/>
+                        <Image src="/assets/imgs/cards2.webp" alt='Cards' priority={true} width={652} height={480}/>
                     </div>
                     <div className="text-center space-y-2">
                         <h3 className="text-xl font-title text-slate">Global Spending with Prism Card</h3>
