@@ -49,7 +49,7 @@ const Header = () => {
                     </Link>
                     <div className="nav-menu hidden items-center gap-x-12 xl:gap-x-16 lg:flex">
                         <a href="/#services">Features</a>
-                        <a href="/#mentors">Pricing</a>
+                        <a href="/#reviews">Pricing</a>
                         <a href='/#'>FAQ</a>
                         <a href='/#'>Support</a>
                     </div>
@@ -62,7 +62,7 @@ const Header = () => {
                                 <a href="/#services" onClick={()=> setOpen(!isOpen)}>Features</a>
                                 <a href="/#services" onClick={()=> setOpen(!isOpen)}>Pricing</a>
                                 <a href="/#services" onClick={()=> setOpen(!isOpen)}>FAQ</a>
-                                <a href="/#mentors" onClick={()=> setOpen(!isOpen)}>Support</a>
+                                <a href="/#reviews" onClick={()=> setOpen(!isOpen)}>Support</a>
                             </div>
                             <Link href="/login" onClick={()=> setOpen(!isOpen)}>Log in</Link>
                             <Link href="/register" onClick={()=> setOpen(!isOpen)} className='lg:border lg:border-[#a5a9b633] lg:rounded-[28px] lg:w-[192px] lg:h-[50px] lg:text-center lg:!leading-[50px]'>Register -<span className='text-xs text-slate'> It's free</span></Link>

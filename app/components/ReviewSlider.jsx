@@ -2,7 +2,6 @@
 
 import React, {useState, useEffect, useCallback} from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
 
 // ** Import Swiper Slider
 import { Navigation, Pagination, Autoplay } from "swiper/modules";

@@ -7,7 +7,6 @@ import { HiChevronRight, HiChevronLeft } from "react-icons/hi2";
 
 import ReviewSlider from './ReviewSlider';
 
-
 const Reviews = () => {
     
     return (

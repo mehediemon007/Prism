@@ -3,11 +3,11 @@ import Header from "./components/Header";
 import Banner from "./components/Banner";
 import Footer from "./components/Footer";
 import Faq from "./components/Faq";
-import Reviews from "./components/Reviews";
 import Partners from "./components/Partners";
 import Features from "./components/Features";
 import About from "./components/About";
 import ScrollTop from "./elements/ScrollTop";
+import Reviews from "./components/Reviews";
 
 export default function Home() {
   return (
@@ -26,7 +26,7 @@ export default function Home() {
             <Features/>
           </div>
         </section>
-        <section id='mentors' className="pt-12 md:pt-16 xl:pt-32">
+        <section id='reviews' className="pt-12 md:pt-16 xl:pt-32">
           <div className="container lg:pr-0">
             <Reviews/>
           </div>
