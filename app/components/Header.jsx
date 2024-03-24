@@ -41,7 +41,7 @@ const Header = () => {
                 <div className='header-wrap flex justify-between items-center relative'>
                     <Link href="/" className="logo w-max">
                         <Image
-                            src='/assets/imgs/logo.PNG'
+                            src='/assets/imgs/logo.png'
                             alt="Prism"
                             width={100}
                             height={25}

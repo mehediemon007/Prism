@@ -38,7 +38,7 @@ const Banner = () => {
                   In 3 simple steps
                 </p>
                 <Image
-                  src="assets/imgs/react-icon.png"
+                  src="/assets/imgs/react-icon.png"
                   alt="Icon"
                   width={64}
                   height={64}
@@ -56,7 +56,7 @@ const Banner = () => {
             </div>
             <div className="mb-8 xl:mb-0 xl:col-span-2">
               <Image
-                src="assets/imgs/cards2.webp"
+                src="/assets/imgs/cards2.webp"
                 width={0}
                 height={0}
                 priority={true}
@@ -65,7 +65,7 @@ const Banner = () => {
                 alt="Prism Debit Card"
               />
               <Image
-                src="assets/imgs/cards.webp"
+                src="/assets/imgs/cards.webp"
                 width={0}
                 height={0}
                 priority={true}
