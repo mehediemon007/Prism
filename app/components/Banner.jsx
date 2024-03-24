@@ -56,7 +56,7 @@ const Banner = () => {
             </div>
             <div className="mb-8 xl:mb-0 xl:col-span-2">
               <Image
-                src="/assets/imgs/cards2.webp"
+                src="/assets/imgs/cards2.WEBP"
                 width={0}
                 height={0}
                 priority={true}
